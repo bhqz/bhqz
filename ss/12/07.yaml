@@ -5,180 +5,122 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb', server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb', server: 92.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb', server: 71.19.249.109, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QBLw4rLXQ6ebxpWwSKDL}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb', server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb', server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb', server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb', server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb', server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb', server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb', server: 141.95.0.23, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb', server: 141.95.0.23, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb', server: 141.95.0.23, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb', server: 141.95.0.23, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb', server: 141.95.0.23, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb', server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb', server: 132.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb', server: 146.0.36.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb', server: 141.95.0.23, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb', server: 141.95.0.23, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb', server: 141.95.0.23, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb', server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb', server: 141.95.0.23, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb', server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb', server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb', server: 141.95.0.23, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb', server: 141.95.0.23, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb', server: 141.95.0.23, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb', server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb', server: 54.93.209.116, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb', server: 188.126.89.174, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SkGJxCjsuc8DJsB2GtM4}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb', server: 213.167.242.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BDybfjpcRuiW}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb', server: 35.180.202.71, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb', server: 145.239.7.164, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb', server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb', server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb', server: 145.239.7.164, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb', server: 145.239.7.164, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb', server: 145.239.7.164, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb', server: 145.239.7.164, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb', server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb', server: 145.239.7.164, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb', server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb', server: 112.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb', server: 18.133.222.236, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb', server: 54.169.145.196, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
   - {name: 'Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb', server: 10.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb', server: 102.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb', server: 52.213.36.28, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb', server: 34.245.54.215, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb', server: 13.233.83.128, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb', server: 13.233.140.181, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: 'Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb', server: 142.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb', server: 14.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb', server: 172.105.251.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb', server: 172.105.251.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb', server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb', server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb', server: 172.105.251.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb', server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb', server: 52.197.216.231, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb', server: 172.105.251.193, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb', server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb', server: 73.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb', server: 172.105.251.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb', server: 172.105.251.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb', server: 76.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb', server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb', server: 74.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb', server: 54.238.191.91, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: 'Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb', server: 54.199.249.200, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb', server: 13.231.232.53, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb', server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb', server: 74.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb', server: 153.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb', server: 172.105.251.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb', server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb', server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb', server: 52.197.216.231, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb', server: 172.105.251.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb', server: 172.105.251.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 'Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb', server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb', server: 203.234.105.132, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb', server: 61.74.155.70, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
-  - {name: 'Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb', server: 203.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb', server: 175.196.74.104, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb', server: 302.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb', server: 54.238.191.91, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: 'Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb', server: 222.107.174.165, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
   - {name: 'Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb', server: 61.74.222.77, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
-  - {name: 'Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb', server: 202.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb', server: 301.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: 'Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb', server: 85.208.110.138, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb', server: 81.90.189.18, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb', server: 54.169.145.196, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb', server: 217.197.161.244, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb', server: 81.90.189.18, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb', server: 153.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb', server: 122.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb', server: 13.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb', server: 85.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb', server: 84.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb', server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb', server: 38.91.100.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb', server: 34.221.235.18, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb', server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb', server: 38.68.134.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb', server: 142.202.48.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb', server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb', server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb', server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb', server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb', server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb', server: 167.88.63.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb', server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb', server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb', server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb', server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb', server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb', server: 38.68.134.190, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb', server: 38.107.226.48, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb', server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb', server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb', server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb', server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb', server: 61.74.155.70, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb', server: 7.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb', server: 203.234.105.132, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb', server: 203.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb', server: 14.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb', server: 172.105.251.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb', server: 76.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb', server: 302.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb', server: 13.233.140.181, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb', server: 13.231.232.53, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb', server: 13.233.83.128, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb', server: 172.105.251.193, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 'Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb', server: 13.38.97.60, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb', server: 142.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb', server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb', server: 213.167.242.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BDybfjpcRuiW}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb', server: 145.239.7.164, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 'Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb', server: 3.70.154.105, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb', server: 13.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb', server: 38.68.134.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb', server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb', server: 167.88.63.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb', server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb', server: 132.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb', server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb', server: 35.180.202.71, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb', server: 175.196.74.104, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb', server: 92.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb', server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb', server: 145.239.7.164, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb', server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb', server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb', server: 145.239.7.164, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb', server: 145.239.7.164, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb', server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb', server: 145.239.7.164, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb', server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb', server: 145.239.7.164, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb', server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb', server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb', server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb', server: 54.93.209.116, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb', server: 52.213.36.28, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb', server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 'Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb', server: 38.91.100.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 'Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb', server: 38.91.100.130, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb', server: 3.99.165.46, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb', server: 3.89.229.41, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
   - {name: 'Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb', server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 'Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb', server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb', server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb', server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb', server: 112.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb', server: 10.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb', server: 85.208.110.138, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb', server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 'Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb', server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb', server: 18.133.222.236, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb', server: 102.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb', server: 34.245.54.215, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb', server: 202.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb', server: 122.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb', server: 3.99.165.46, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb', server: 3.89.229.41, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb', server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb', server: 172.105.251.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb', server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb', server: 141.95.0.23, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb', server: 34.221.235.18, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb', server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb', server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb', server: 141.95.0.23, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb', server: 141.95.0.23, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb', server: 141.95.0.23, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb', server: 141.95.0.23, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb', server: 141.95.0.23, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb', server: 141.95.0.23, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb', server: 141.95.0.23, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb', server: 141.95.0.23, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb', server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb', server: 141.95.0.23, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb', server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb', server: 85.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb', server: 141.95.0.23, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb', server: 84.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb', server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb', server: 141.95.0.23, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb', server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb', server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 'Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb', server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb', server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 'Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb', server: 77.243.177.78, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
-  - {name: 'Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb', server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb', server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb', server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 'Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb', server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
 proxy-groups:
   - name: 🔰 节点选择
@@ -186,360 +128,244 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
-      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
-      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
-      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb
-      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
-      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
-      - Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
-      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
-      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
-      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
-      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
-      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
-      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
-      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
-      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
-      - Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb
-      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
-      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
-      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
-      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
-      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
-      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
-      - Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb
-      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
-      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
-      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
-      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
-      - Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb
-      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
-      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
-      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
-      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
-      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
-      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
-      - Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb
-      - Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb
-      - Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb
-      - Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb
-      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb
-      - Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb
-      - Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb
-      - Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb
-      - Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
-      - Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb
-      - Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb
-      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
-      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
-      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
-      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
-      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
-      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
-      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
-      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
-      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
-      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
-      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
-      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
-      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
-      - Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb
-      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb
+      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
       - Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb
-      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
-      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
-      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
-      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
-      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb
-      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
-      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
-      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
-      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
-      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
-      - Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb
-      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
-      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
-      - Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb
-      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
-      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
-      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
-      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
-      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb
-      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
+      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
+      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
+      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
+      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
+      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
+      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
+      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
       - Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb
-      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
-      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
-      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
-      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb
       - Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
-      - Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb
-      - Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb
-      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
-      - Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb
-      - Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb
-      - Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb
-      - Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb
-      - Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb
-      - Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb
-      - Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb
-      - Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb
-      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
-      - Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb
-      - Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb
-      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
-      - Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb
-      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
-      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
-      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
-      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
-      - Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb
-      - Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
-      - Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb
-      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
-      - Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb
-      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
-      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
-      - Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb
-      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
-      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
-      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
-      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
-      - Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb
-      - Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb
-      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
-      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
-      - Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb
-      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
-      - Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
-      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb
-      - Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb
+      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
+      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
+      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
+      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
+      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
+      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
+      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
+      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
+      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
+      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
       - Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb
+      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
+      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
+      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
+      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
       - Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb
+      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
+      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
+      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
+      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
+      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
+      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
+      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
+      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
+      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
+      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
+      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
+      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
+      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
+      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
+      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
+      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
+      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
+      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
+      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
+      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
+      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
+      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
       - Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb
       - Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb
-      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
-      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
       - Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb
       - Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb
-      - Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb
+      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
+      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
+      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
+      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
+      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
       - Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb
+      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
+      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
+      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
+      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
+      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
+      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
+      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
+      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
+      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
+      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
+      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
+      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
+      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
+      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
+      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
+      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
+      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
+      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
+      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
+      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
+      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
+      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
+      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
+      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
+      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
+      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
+      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
+      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
+      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
+      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
+      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
+      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
+      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
       - Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb
-      - Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb
       - Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb
-      - Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb
-      - Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb
-      - Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb
-      - Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb
-      - Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb
-      - Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb
-      - Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb
       - Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
-      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
-      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
-      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb
-      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
-      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
-      - Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
-      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
-      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
-      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
-      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
-      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
-      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
-      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
-      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
-      - Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb
-      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
-      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
-      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
-      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
-      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
-      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
-      - Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb
-      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
-      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
-      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
-      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
-      - Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb
-      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
-      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
-      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
-      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
-      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
-      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
-      - Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb
-      - Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb
-      - Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb
-      - Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb
-      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb
-      - Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb
-      - Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb
-      - Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb
-      - Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
-      - Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb
-      - Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb
-      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
-      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
-      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
-      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
-      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
-      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
-      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
-      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
-      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
-      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
-      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
-      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
-      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
-      - Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb
-      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb
+      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
       - Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb
-      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
-      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
-      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
-      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
-      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb
-      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
-      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
-      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
-      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
-      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
-      - Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb
-      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
-      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
-      - Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb
-      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
-      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
-      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
-      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
-      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb
-      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
+      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
+      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
+      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
+      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
+      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
+      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
+      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
       - Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb
-      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
-      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
-      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
-      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb
       - Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
-      - Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb
-      - Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb
-      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
-      - Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb
-      - Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb
-      - Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb
-      - Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb
-      - Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb
-      - Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb
-      - Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb
-      - Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb
-      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
-      - Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb
-      - Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb
-      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
-      - Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb
-      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
-      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
-      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
-      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
-      - Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb
-      - Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
-      - Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb
-      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
-      - Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb
-      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
-      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
-      - Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb
-      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
-      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
-      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
-      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
-      - Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb
-      - Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb
-      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
-      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
-      - Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb
-      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
-      - Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
-      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb
-      - Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb
+      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
+      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
+      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
+      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
+      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
+      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
+      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
+      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
+      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
+      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
       - Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb
+      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
+      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
+      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
+      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
       - Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb
+      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
+      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
+      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
+      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
+      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
+      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
+      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
+      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
+      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
+      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
+      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
+      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
+      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
+      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
+      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
+      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
+      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
+      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
+      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
+      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
+      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
+      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
       - Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb
       - Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb
-      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
-      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
       - Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb
       - Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb
-      - Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb
+      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
+      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
+      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
+      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
+      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
       - Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb
+      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
+      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
+      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
+      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
+      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
+      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
+      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
+      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
+      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
+      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
+      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
+      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
+      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
+      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
+      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
+      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
+      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
+      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
+      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
+      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
+      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
+      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
+      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
+      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
+      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
+      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
+      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
+      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
+      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
+      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
+      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
+      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
+      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
       - Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb
-      - Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb
       - Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb
-      - Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb
-      - Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb
-      - Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb
-      - Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb
-      - Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb
-      - Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb
-      - Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb
       - Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb
   - name: 🌍 国外媒体
     type: select
@@ -547,720 +373,488 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
-      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
-      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
-      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb
-      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
-      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
-      - Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
-      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
-      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
-      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
-      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
-      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
-      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
-      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
-      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
-      - Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb
-      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
-      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
-      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
-      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
-      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
-      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
-      - Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb
-      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
-      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
-      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
-      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
-      - Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb
-      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
-      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
-      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
-      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
-      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
-      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
-      - Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb
-      - Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb
-      - Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb
-      - Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb
-      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb
-      - Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb
-      - Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb
-      - Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb
-      - Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
-      - Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb
-      - Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb
-      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
-      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
-      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
-      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
-      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
-      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
-      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
-      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
-      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
-      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
-      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
-      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
-      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
-      - Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb
-      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb
+      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
       - Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb
-      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
-      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
-      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
-      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
-      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb
-      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
-      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
-      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
-      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
-      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
-      - Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb
-      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
-      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
-      - Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb
-      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
-      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
-      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
-      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
-      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb
-      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
+      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
+      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
+      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
+      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
+      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
+      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
+      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
       - Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb
-      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
-      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
-      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
-      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb
       - Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
-      - Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb
-      - Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb
-      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
-      - Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb
-      - Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb
-      - Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb
-      - Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb
-      - Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb
-      - Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb
-      - Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb
-      - Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb
-      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
-      - Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb
-      - Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb
-      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
-      - Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb
-      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
-      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
-      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
-      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
-      - Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb
-      - Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
-      - Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb
-      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
-      - Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb
-      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
-      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
-      - Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb
-      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
-      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
-      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
-      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
-      - Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb
-      - Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb
-      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
-      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
-      - Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb
-      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
-      - Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
-      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb
-      - Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb
+      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
+      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
+      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
+      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
+      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
+      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
+      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
+      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
+      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
+      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
       - Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb
+      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
+      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
+      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
+      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
       - Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb
+      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
+      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
+      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
+      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
+      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
+      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
+      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
+      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
+      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
+      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
+      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
+      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
+      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
+      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
+      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
+      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
+      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
+      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
+      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
+      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
+      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
+      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
       - Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb
       - Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb
-      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
-      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
       - Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb
       - Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb
-      - Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb
+      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
+      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
+      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
+      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
+      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
       - Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb
+      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
+      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
+      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
+      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
+      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
+      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
+      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
+      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
+      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
+      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
+      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
+      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
+      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
+      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
+      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
+      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
+      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
+      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
+      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
+      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
+      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
+      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
+      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
+      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
+      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
+      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
+      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
+      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
+      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
+      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
+      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
+      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
+      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
       - Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb
-      - Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb
       - Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb
-      - Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb
-      - Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb
-      - Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb
-      - Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb
-      - Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb
-      - Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb
-      - Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb
       - Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
-      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
-      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
-      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb
-      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
-      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
-      - Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
-      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
-      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
-      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
-      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
-      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
-      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
-      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
-      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
-      - Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb
-      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
-      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
-      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
-      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
-      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
-      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
-      - Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb
-      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
-      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
-      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
-      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
-      - Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb
-      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
-      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
-      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
-      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
-      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
-      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
-      - Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb
-      - Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb
-      - Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb
-      - Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb
-      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb
-      - Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb
-      - Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb
-      - Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb
-      - Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
-      - Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb
-      - Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb
-      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
-      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
-      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
-      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
-      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
-      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
-      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
-      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
-      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
-      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
-      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
-      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
-      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
-      - Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb
-      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb
+      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
       - Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb
-      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
-      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
-      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
-      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
-      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb
-      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
-      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
-      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
-      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
-      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
-      - Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb
-      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
-      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
-      - Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb
-      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
-      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
-      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
-      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
-      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb
-      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
+      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
+      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
+      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
+      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
+      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
+      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
+      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
       - Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb
-      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
-      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
-      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
-      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb
       - Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
-      - Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb
-      - Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb
-      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
-      - Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb
-      - Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb
-      - Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb
-      - Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb
-      - Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb
-      - Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb
-      - Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb
-      - Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb
-      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
-      - Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb
-      - Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb
-      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
-      - Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb
-      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
-      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
-      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
-      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
-      - Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb
-      - Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
-      - Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb
-      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
-      - Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb
-      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
-      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
-      - Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb
-      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
-      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
-      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
-      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
-      - Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb
-      - Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb
-      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
-      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
-      - Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb
-      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
-      - Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
-      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb
-      - Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb
+      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
+      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
+      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
+      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
+      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
+      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
+      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
+      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
+      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
+      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
       - Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb
+      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
+      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
+      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
+      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
       - Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb
+      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
+      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
+      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
+      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
+      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
+      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
+      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
+      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
+      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
+      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
+      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
+      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
+      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
+      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
+      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
+      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
+      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
+      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
+      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
+      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
+      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
+      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
       - Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb
       - Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb
-      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
-      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
       - Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb
       - Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb
-      - Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb
+      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
+      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
+      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
+      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
+      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
       - Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb
+      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
+      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
+      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
+      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
+      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
+      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
+      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
+      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
+      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
+      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
+      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
+      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
+      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
+      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
+      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
+      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
+      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
+      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
+      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
+      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
+      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
+      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
+      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
+      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
+      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
+      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
+      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
+      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
+      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
+      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
+      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
+      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
+      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
       - Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb
-      - Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb
       - Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb
-      - Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb
-      - Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb
-      - Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb
-      - Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb
-      - Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb
-      - Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb
-      - Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb
       - Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
-      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
-      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
-      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb
-      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
-      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
-      - Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
-      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
-      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
-      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
-      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
-      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
-      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
-      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
-      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
-      - Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb
-      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
-      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
-      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
-      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
-      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
-      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
-      - Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb
-      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
-      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
-      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
-      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
-      - Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb
-      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
-      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
-      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
-      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
-      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
-      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
-      - Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb
-      - Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb
-      - Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb
-      - Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb
-      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb
-      - Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb
-      - Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb
-      - Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb
-      - Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
-      - Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb
-      - Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb
-      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
-      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
-      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
-      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
-      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
-      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
-      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
-      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
-      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
-      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
-      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
-      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
-      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
-      - Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb
-      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb
+      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
       - Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb
-      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
-      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
-      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
-      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
-      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb
-      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
-      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
-      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
-      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
-      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
-      - Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb
-      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
-      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
-      - Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb
-      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
-      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
-      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
-      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
-      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb
-      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
+      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
+      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
+      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
+      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
+      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
+      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
+      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
       - Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb
-      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
-      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
-      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
-      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb
       - Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
-      - Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb
-      - Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb
-      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
-      - Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb
-      - Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb
-      - Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb
-      - Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb
-      - Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb
-      - Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb
-      - Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb
-      - Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb
-      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
-      - Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb
-      - Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb
-      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
-      - Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb
-      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
-      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
-      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
-      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
-      - Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb
-      - Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
-      - Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb
-      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
-      - Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb
-      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
-      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
-      - Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb
-      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
-      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
-      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
-      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
-      - Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb
-      - Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb
-      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
-      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
-      - Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb
-      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
-      - Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
-      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb
-      - Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb
+      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
+      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
+      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
+      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
+      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
+      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
+      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
+      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
+      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
+      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
       - Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb
+      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
+      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
+      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
+      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
       - Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb
+      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
+      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
+      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
+      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
+      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
+      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
+      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
+      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
+      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
+      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
+      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
+      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
+      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
+      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
+      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
+      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
+      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
+      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
+      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
+      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
+      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
+      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
       - Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb
       - Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb
-      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
-      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
       - Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb
       - Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb
-      - Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb
+      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
+      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
+      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
+      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
+      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
       - Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb
+      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
+      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
+      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
+      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
+      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
+      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
+      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
+      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
+      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
+      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
+      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
+      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
+      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
+      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
+      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
+      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
+      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
+      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
+      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
+      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
+      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
+      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
+      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
+      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
+      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
+      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
+      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
+      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
+      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
+      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
+      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
+      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
+      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
       - Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb
-      - Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb
       - Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb
-      - Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb
-      - Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb
-      - Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb
-      - Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb
-      - Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb
-      - Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb
-      - Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb
       - Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
-      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
-      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
-      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb
-      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
-      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
-      - Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
-      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
-      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
-      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
-      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
-      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
-      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
-      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
-      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
-      - Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb
-      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
-      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
-      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
-      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
-      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
-      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
-      - Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb
-      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
-      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
-      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
-      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
-      - Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb
-      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
-      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
-      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
-      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
-      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
-      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
-      - Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb
-      - Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb
-      - Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb
-      - Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb
-      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb
-      - Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb
-      - Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb
-      - Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb
-      - Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
-      - Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb
-      - Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb
-      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
-      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
-      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
-      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
-      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
-      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
-      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
-      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
-      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
-      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
-      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
-      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
-      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
-      - Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb
-      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb
+      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
       - Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb
-      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
-      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
-      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
-      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
-      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb
-      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
-      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
-      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
-      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
-      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
-      - Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb
-      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
-      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
-      - Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb
-      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
-      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
-      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
-      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
-      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb
-      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
+      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
+      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
+      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
+      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
+      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
+      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
+      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
       - Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb
-      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
-      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
-      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
-      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb
       - Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
-      - Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb
-      - Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb
-      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
-      - Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb
-      - Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb
-      - Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb
-      - Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb
-      - Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb
-      - Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb
-      - Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb
-      - Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb
-      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
-      - Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb
-      - Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb
-      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
-      - Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb
-      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
-      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
-      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
-      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
-      - Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb
-      - Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
-      - Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb
-      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
-      - Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb
-      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
-      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
-      - Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb
-      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
-      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
-      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
-      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
-      - Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb
-      - Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb
-      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
-      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
-      - Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb
-      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
-      - Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
-      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb
-      - Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb
+      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
+      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
+      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
+      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
+      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
+      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
+      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
+      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
+      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
+      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
       - Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb
+      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
+      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
+      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
+      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
       - Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb
+      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
+      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
+      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
+      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
+      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
+      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
+      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
+      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
+      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
+      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
+      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
+      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
+      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
+      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
+      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
+      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
+      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
+      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
+      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
+      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
+      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
+      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
       - Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb
       - Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb
-      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
-      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
       - Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb
       - Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb
-      - Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb
+      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
+      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
+      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
+      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
+      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
       - Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb
+      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
+      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
+      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
+      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
+      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
+      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
+      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
+      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
+      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
+      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
+      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
+      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
+      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
+      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
+      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
+      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
+      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
+      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
+      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
+      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
+      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
+      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
+      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
+      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
+      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
+      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
+      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
+      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
+      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
+      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
+      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
+      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
+      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
       - Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb
-      - Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb
       - Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb
-      - Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb
-      - Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb
-      - Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb
-      - Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb
-      - Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb
-      - Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb
-      - Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb
       - Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb
   - name: 🍎 苹果服务
     type: select
@@ -1268,180 +862,122 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
-      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
-      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
-      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb
-      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
-      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
-      - Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
-      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
-      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
-      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
-      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
-      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
-      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
-      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
-      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
-      - Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb
-      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
-      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
-      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
-      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
-      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
-      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
-      - Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb
-      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
-      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
-      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
-      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
-      - Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb
-      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
-      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
-      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
-      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
-      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
-      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
-      - Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb
-      - Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb
-      - Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb
-      - Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb
-      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb
-      - Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb
-      - Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb
-      - Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb
-      - Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
-      - Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb
-      - Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb
-      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
-      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
-      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
-      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
-      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
-      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
-      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
-      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
-      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
-      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
-      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
-      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
-      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
-      - Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb
-      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb
+      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
       - Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb
-      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
-      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
-      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
-      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
-      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb
-      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
-      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
-      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
-      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
-      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
-      - Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb
-      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
-      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
-      - Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb
-      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
-      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
-      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
-      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
-      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb
-      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
+      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
+      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
+      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
+      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
+      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
+      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
+      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
       - Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb
-      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
-      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
-      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
-      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb
       - Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
-      - Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb
-      - Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb
-      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
-      - Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb
-      - Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb
-      - Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb
-      - Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb
-      - Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb
-      - Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb
-      - Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb
-      - Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb
-      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
-      - Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb
-      - Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb
-      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
-      - Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb
-      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
-      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
-      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
-      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
-      - Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb
-      - Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
-      - Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb
-      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
-      - Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb
-      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
-      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
-      - Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb
-      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
-      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
-      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
-      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
-      - Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb
-      - Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb
-      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
-      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
-      - Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb
-      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
-      - Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
-      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb
-      - Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb
+      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
+      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
+      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
+      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
+      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
+      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
+      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
+      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
+      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
+      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
       - Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb
+      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
+      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
+      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
+      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
       - Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb
+      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
+      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
+      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
+      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
+      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
+      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
+      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
+      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
+      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
+      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
+      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
+      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
+      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
+      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
+      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
+      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
+      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
+      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
+      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
+      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
+      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
+      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
       - Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb
       - Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb
-      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
-      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
       - Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb
       - Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb
-      - Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb
+      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
+      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
+      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
+      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
+      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
       - Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb
+      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
+      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
+      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
+      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
+      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
+      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
+      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
+      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
+      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
+      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
+      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
+      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
+      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
+      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
+      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
+      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
+      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
+      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
+      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
+      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
+      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
+      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
+      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
+      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
+      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
+      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
+      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
+      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
+      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
+      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
+      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
+      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
+      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
       - Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb
-      - Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb
       - Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb
-      - Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb
-      - Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb
-      - Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb
-      - Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb
-      - Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb
-      - Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb
-      - Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb
       - Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb
   - name: 🎯 全球直连
     type: select
@@ -1458,180 +994,122 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
-      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
-      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
-      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_288+|+7.38Mb
-      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
-      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
-      - Youtube:鹏哥分享🇨🇦CA_301+|12.57Mb
-      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
-      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
-      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
-      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
-      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
-      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
-      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
-      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
-      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
-      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
-      - Youtube:鹏哥分享🇩🇪DE_447+|+5.20Mb
-      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
-      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
-      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
-      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
-      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
-      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
-      - Youtube:鹏哥分享🇩🇪DE_458+|+7.02Mb
-      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
-      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
-      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
-      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
-      - Youtube:鹏哥分享🇩🇪DE_464+|+6.37Mb
-      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
-      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
-      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
-      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
-      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
-      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
-      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
-      - Youtube:鹏哥分享🇫🇮FI_499+|14.92Mb
-      - Youtube:鹏哥分享🇫🇷FR_504+|164.91Mb
-      - Youtube:鹏哥分享🇫🇷FR_517+|145.48Mb
-      - Youtube:鹏哥分享🇫🇷FR_518+|112.14Mb
-      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
-      - Youtube:鹏哥分享🇫🇷FR_523+|103.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_526+|108.29Mb
-      - Youtube:鹏哥分享🇫🇷FR_527+|18.20Mb
-      - Youtube:鹏哥分享🇫🇷FR_528+|137.08Mb
-      - Youtube:鹏哥分享🇫🇷FR_530+|51.51Mb
-      - Youtube:鹏哥分享🇫🇷FR_533+|130.31Mb
-      - Youtube:鹏哥分享🇫🇷FR_534+|87.40Mb
-      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
-      - Youtube:鹏哥分享🇫🇷FR_540+|119.83Mb
-      - Youtube:鹏哥分享🇫🇷FR_543+|185.09Mb
-      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
-      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
-      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
-      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
-      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
-      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
-      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
-      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
-      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
-      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
-      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
-      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
-      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
-      - Youtube:鹏哥分享🇭🇰HK_627+|+2.52Mb
-      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
-      - Youtube:鹏哥分享🇭🇰HK_630+|+2.09Mb
+      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
       - Youtube:鹏哥分享🇭🇰HK_633+|19.91Mb
-      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
-      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
-      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
-      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
-      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
-      - Youtube:鹏哥分享🇮🇳IN_684+|+5.34Mb
-      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
-      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
-      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
-      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
-      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
-      - Youtube:鹏哥分享🇯🇵JP_715+|+3.35Mb
-      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
-      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
-      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
-      - Youtube:鹏哥分享🇯🇵JP_737+|+7.85Mb
-      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
-      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
-      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
-      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
-      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
-      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇯🇵JP_762+|10.95Mb
-      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_712+|403.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_756+|+5.10Mb
+      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
+      - Youtube:鹏哥分享🇯🇵JP_709+|441.10Mb
+      - Youtube:鹏哥分享🇯🇵JP_731+|426.12Mb
+      - Youtube:鹏哥分享🇯🇵JP_711+|440.40Mb
+      - Youtube:鹏哥分享🇯🇵JP_716+|+6.13Mb
+      - Youtube:鹏哥分享🇯🇵JP_714+|389.77Mb
+      - Youtube:鹏哥分享🇯🇵JP_746+|433.50Mb
       - Youtube:鹏哥分享🇯🇵JP_765+|355.83Mb
-      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
-      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
-      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
-      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇯🇵JP_760+|11.83Mb
       - Youtube:鹏哥分享🇰🇷KR_859+|+3.65Mb
       - Youtube:鹏哥分享🇰🇷KR_860+|+9.54Mb
-      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
-      - Youtube:鹏哥分享🇰🇷KR_863+|+7.34Mb
-      - Youtube:鹏哥分享🇲🇽MX_867+|+2.10Mb
-      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
-      - Youtube:鹏哥分享🇳🇴+NO_900+|+2.32Mb
-      - Youtube:鹏哥分享🇳🇴+NO_901+|+7.88Mb
-      - Youtube:鹏哥分享🇳🇴NO_903+|+3.57Mb
-      - Youtube:鹏哥分享🇳🇴NO_904+|+8.51Mb
-      - Youtube:鹏哥分享🇳🇴NO_906+|+5.99Mb
-      - Youtube:鹏哥分享🇳🇴NO_908+|+3.58Mb
-      - Youtube:鹏哥分享🇳🇴NO_909+|+7.36Mb
-      - Youtube:鹏哥分享🇳🇴NO_910+|+2.19Mb
-      - Youtube:鹏哥分享🇳🇴NO_911+|+6.27Mb
-      - Youtube:鹏哥分享🇸🇬SG_1079+|+3.24Mb
-      - Youtube:鹏哥分享🇸🇬SG_1085+|+4.61Mb
-      - Youtube:鹏哥分享🇸🇬SG_1114+|+0.81Mb
-      - Youtube:鹏哥分享🇸🇬SG_1122+|+6.48Mb
-      - Youtube:鹏哥分享🇸🇬SG_1145+|+5.64Mb
-      - Youtube:鹏哥分享🇺🇦UA_1190+|+4.93Mb
-      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
-      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
-      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
-      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
-      - Youtube:鹏哥分享🇺🇸US_1294+|42.02Mb
-      - Youtube:鹏哥分享🇺🇸US_1369+|49.44Mb
-      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
-      - Youtube:鹏哥分享🇺🇸US_1420+|32.06Mb
-      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
-      - Youtube:鹏哥分享🇺🇸US_1540+|53.72Mb
-      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
-      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
-      - Youtube:鹏哥分享🇺🇸US_1578+|49.15Mb
-      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
-      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
-      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
-      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
-      - Youtube:鹏哥分享🇺🇸US_1654+|50.24Mb
-      - Youtube:鹏哥分享🇺🇸US_1722+|37.68Mb
-      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
-      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
-      - Youtube:鹏哥分享🇺🇸US_1745+|27.49Mb
-      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
-      - Youtube:鹏哥分享🇺🇸US_1772+|+7.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
-      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
-      - Youtube:鹏哥分享🇺🇸US_1838+|52.17Mb
-      - Youtube:鹏哥分享🇺🇸US_1896+|114.39Mb
+      - Youtube:鹏哥分享🇰🇷KR_852+|+7.90Mb
+      - Youtube:鹏哥分享🇯🇵JP_755+|+4.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_851+|10.54Mb
+      - Youtube:鹏哥分享🇰🇷KR_853+|10.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_455+|+8.44Mb
+      - Youtube:鹏哥分享🇮🇳IN_687+|13.62Mb
+      - Youtube:鹏哥分享🇯🇵JP_710+|168.06Mb
+      - Youtube:鹏哥分享🇯🇵JP_748+|11.05Mb
+      - Youtube:鹏哥分享🇰🇷KR_855+|+9.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_664+|22.72Mb
+      - Youtube:鹏哥分享🇯🇵JP_763+|+6.47Mb
+      - Youtube:鹏哥分享🇮🇳IN_660+|13.72Mb
+      - Youtube:鹏哥分享🇭🇰HK_628+|18.55Mb
+      - Youtube:鹏哥分享🇯🇵JP_730+|43.62Mb
       - Youtube:鹏哥分享🇺🇸US_1914+|49.62Mb
+      - Youtube:鹏哥分享🇮🇳IN_686+|+9.85Mb
+      - Youtube:鹏哥分享🇨🇦CA_334+|44.63Mb
+      - Youtube:鹏哥分享🇫🇷FR_521+|224.60Mb
+      - Youtube:鹏哥分享🇬🇧GB_572+|147.95Mb
       - Youtube:鹏哥分享🇺🇸US_1915+|181.00Mb
+      - Youtube:鹏哥分享🇩🇪DE_434+|+7.59Mb
+      - Youtube:鹏哥分享🇺🇸US_1283+|111.89Mb
+      - Youtube:鹏哥分享🇺🇸US_1513+|39.99Mb
+      - Youtube:鹏哥分享🇺🇸US_1586+|21.34Mb
+      - Youtube:鹏哥分享🇺🇸US_1618+|42.81Mb
+      - Youtube:鹏哥分享🇺🇸US_1808+|47.69Mb
+      - Youtube:鹏哥分享🇩🇪DE_457+|59.27Mb
+      - Youtube:鹏哥分享🇨🇦CA_369+|45.56Mb
+      - Youtube:鹏哥分享🇫🇷FR_539+|44.74Mb
+      - Youtube:鹏哥分享🇰🇷KR_854+|+3.39Mb
+      - Youtube:鹏哥分享🇨🇦CA_282+|23.33Mb
+      - Youtube:鹏哥分享🇬🇧GB_563+|159.46Mb
+      - Youtube:鹏哥分享🇬🇧GB_567+|126.96Mb
+      - Youtube:鹏哥分享🇬🇧GB_569+|151.35Mb
+      - Youtube:鹏哥分享🇨🇦CA_280+|46.06Mb
+      - Youtube:鹏哥分享🇬🇧GB_566+|96.21Mb
+      - Youtube:鹏哥分享🇬🇧GB_564+|116.83Mb
+      - Youtube:鹏哥分享🇺🇸US_1551+|38.86Mb
+      - Youtube:鹏哥分享🇬🇧GB_561+|149.32Mb
+      - Youtube:鹏哥分享🇬🇧GB_562+|54.88Mb
+      - Youtube:鹏哥分享🇬🇧GB_565+|129.31Mb
+      - Youtube:鹏哥分享🇺🇸US_1606+|53.31Mb
+      - Youtube:鹏哥分享🇨🇦CA_345+|48.06Mb
+      - Youtube:鹏哥分享🇩🇪DE_471+|131.83Mb
+      - Youtube:鹏哥分享🇩🇪DE_472+|107.21Mb
+      - Youtube:鹏哥分享🇮🇪IE_650+|22.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1630+|53.78Mb
       - Youtube:鹏哥分享🇺🇸US_1916+|35.30Mb
       - Youtube:鹏哥分享🇺🇸US_1917+|47.39Mb
-      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
-      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
       - Youtube:鹏哥分享🇺🇸US_1923+|52.16Mb
       - Youtube:鹏哥分享🇺🇸US_1963+|37.72Mb
-      - Youtube:鹏哥分享🇺🇸US_2022+|39.47Mb
+      - Youtube:鹏哥分享🇩🇪DE_465+|+4.66Mb
+      - Youtube:鹏哥分享🇬🇧GB_583+|27.73Mb
+      - Youtube:鹏哥分享🇮🇪IE_647+|25.51Mb
+      - Youtube:鹏哥分享🇳🇱NL_885+|21.84Mb
+      - Youtube:鹏哥分享🇺🇸US_1558+|30.76Mb
       - Youtube:鹏哥分享🇺🇸US_2030+|52.34Mb
+      - Youtube:鹏哥分享🇬🇧GB_586+|33.96Mb
+      - Youtube:鹏哥分享🇮🇪IE_648+|24.06Mb
+      - Youtube:鹏哥分享🇮🇪IE_651+|24.51Mb
+      - Youtube:鹏哥分享🇭🇰HK_621+|15.38Mb
+      - Youtube:鹏哥分享🇰🇷KR_862+|10.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1269+|43.43Mb
+      - Youtube:鹏哥分享🇺🇸US_1918+|28.42Mb
+      - Youtube:鹏哥分享🇺🇸US_1919+|+8.20Mb
+      - Youtube:鹏哥分享🇨🇦CA_374+|47.73Mb
+      - Youtube:鹏哥分享🇯🇵JP_741+|16.58Mb
+      - Youtube:鹏哥分享🇨🇦CA_279+|+7.48Mb
+      - Youtube:鹏哥分享🇺🇸US_1741+|49.21Mb
+      - Youtube:鹏哥分享🇩🇪DE_450+|18.38Mb
+      - Youtube:鹏哥分享🇺🇸US_1374+|13.87Mb
+      - Youtube:鹏哥分享🇺🇸US_1789+|47.88Mb
+      - Youtube:鹏哥分享🇩🇪+DE_426+|50.87Mb
+      - Youtube:鹏哥分享🇩🇪DE_456+|+4.85Mb
+      - Youtube:鹏哥分享🇩🇪DE_461+|19.29Mb
+      - Youtube:鹏哥分享🇩🇪DE_430+|16.75Mb
+      - Youtube:鹏哥分享🇩🇪DE_440+|17.78Mb
+      - Youtube:鹏哥分享🇩🇪DE_460+|18.10Mb
+      - Youtube:鹏哥分享🇩🇪DE_466+|18.55Mb
+      - Youtube:鹏哥分享🇩🇪DE_469+|18.40Mb
+      - Youtube:鹏哥分享🇩🇪DE_459+|17.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_467+|+9.50Mb
+      - Youtube:鹏哥分享🇩🇪DE_470+|18.29Mb
+      - Youtube:鹏哥分享🇺🇸US_1730+|18.32Mb
+      - Youtube:鹏哥分享🇺🇸US_1754+|19.64Mb
+      - Youtube:鹏哥分享🇩🇪DE_451+|18.91Mb
+      - Youtube:鹏哥分享🇬🇧GB_578+|19.18Mb
+      - Youtube:鹏哥分享🇺🇸US_1284+|18.25Mb
+      - Youtube:鹏哥分享🇨🇦CA_286+|14.57Mb
+      - Youtube:鹏哥分享🇩🇪DE_449+|18.11Mb
+      - Youtube:鹏哥分享🇺🇸US_1285+|+7.19Mb
+      - Youtube:鹏哥分享🇨🇦CA_289+|21.24Mb
+      - Youtube:鹏哥分享🇨🇦CA_299+|34.74Mb
+      - Youtube:鹏哥分享🇩🇪DE_462+|17.96Mb
+      - Youtube:鹏哥分享🇩🇪DE_463+|19.26Mb
+      - Youtube:鹏哥分享🇨🇦CA_346+|49.90Mb
+      - Youtube:鹏哥分享🇩🇪+DE_424+|98.18Mb
+      - Youtube:鹏哥分享🇨🇦CA_281+|14.92Mb
       - Youtube:鹏哥分享🇺🇸US_2031+|40.52Mb
-      - Youtube:鹏哥分享🇺🇸US_2046+|48.20Mb
       - Youtube:鹏哥分享🏁ZZ_2200+|15.09Mb
-      - Youtube:鹏哥分享🏁ZZ_2201+|29.62Mb
-      - Youtube:鹏哥分享🏁ZZ_2209+|24.87Mb
-      - Youtube:鹏哥分享🏁ZZ_2213+|18.85Mb
-      - Youtube:鹏哥分享🏁ZZ_2232+|32.93Mb
-      - Youtube:鹏哥分享🏁ZZ_2245+|38.04Mb
-      - Youtube:鹏哥分享🏁ZZ_2250+|14.47Mb
-      - Youtube:鹏哥分享🏁ZZ_2389+|38.15Mb
       - Youtube:鹏哥分享🏁ZZ_2394+|33.68Mb
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
