@@ -5,564 +5,148 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'YTB：鹏哥分享_NON_1', server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'YTB：鹏哥分享_NON_2', server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'YTB：鹏哥分享_NON_3', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: 'YTB：鹏哥分享_NON_4', server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: 'YTB：鹏哥分享_NON_5', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'YTB：鹏哥分享_NON_6', server: 85.208.108.18, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'YTB：鹏哥分享_NON_7', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: 'YTB：鹏哥分享_NON_8', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'YTB：鹏哥分享_NON_9', server: 149.7.16.10, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'YTB：鹏哥分享_NON_10', server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: 'YTB：鹏哥分享_NON_11', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'YTB：鹏哥分享_NON_12', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: 'YTB：鹏哥分享_NON_13', server: 134.195.196.107, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'YTB：鹏哥分享_NON_14', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'YTB：鹏哥分享_NON_15', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: 'YTB：鹏哥分享_NON_16', server: 102.165.20.38, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
-  - {name: 'YTB：鹏哥分享_NON_17', server: 37.120.193.170, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Z3WEYrWQdmDZnLvJ94vE}
-  - {name: 'YTB：鹏哥分享_NON_18', server: 188.214.122.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
-  - {name: 'YTB：鹏哥分享_NON_19', server: 134.195.196.107, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'YTB：鹏哥分享_NON_20', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'YTB：鹏哥分享_NON_21', server: 172.105.251.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'YTB：鹏哥分享_NON_22', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: 'YTB：鹏哥分享_NON_23', server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
-  - {name: 'YTB：鹏哥分享_NON_24', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'YTB：鹏哥分享_NON_25', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'YTB：鹏哥分享_NON_26', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: 'YTB：鹏哥分享_NON_27', server: 149.7.16.10, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'YTB：鹏哥分享_NON_28', server: 134.195.196.184, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'YTB：鹏哥分享_NON_29', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'YTB：鹏哥分享_NON_30', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'YTB：鹏哥分享_NON_31', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 'YTB：鹏哥分享_NON_32', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: 'YTB：鹏哥分享_NON_33', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'YTB：鹏哥分享_NON_34', server: 185.212.149.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
-  - {name: 'YTB：鹏哥分享_NON_35', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'YTB：鹏哥分享_NON_36', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'YTB：鹏哥分享_NON_37', server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
-  - {name: 'YTB：鹏哥分享_NON_38', server: 193.108.118.182, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'YTB：鹏哥分享_NON_39', server: 193.108.118.182, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'YTB：鹏哥分享_NON_40', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'YTB：鹏哥分享_NON_41', server: 85.208.108.146, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'YTB：鹏哥分享_NON_42', server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
-  - {name: 'YTB：鹏哥分享_NON_43', server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'YTB：鹏哥分享_NON_44', server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: 'YTB：鹏哥分享_NON_45', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: 'YTB：鹏哥分享_NON_46', server: usjjs.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usjjs.52jjyun.top}}
-  - {name: 'YTB：鹏哥分享_NON_47', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'YTB：鹏哥分享_NON_48', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: 'YTB：鹏哥分享_NON_49', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'YTB：鹏哥分享_NON_50', server: 185.101.35.172, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'YTB：鹏哥分享_NON_51', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: 'YTB：鹏哥分享_NON_52', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'YTB：鹏哥分享_NON_53', server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'YTB：鹏哥分享_NON_54', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'YTB：鹏哥分享_NON_55', server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: 'YTB：鹏哥分享_NON_56', server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
-  - {name: 'YTB：鹏哥分享_NON_57', server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'YTB：鹏哥分享_NON_58', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
-  - {name: 'YTB：鹏哥分享_NON_59', server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'YTB：鹏哥分享_NON_60', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'YTB：鹏哥分享_NON_61', server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'YTB：鹏哥分享_NON_62', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: 'YTB：鹏哥分享_NON_63', server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'YTB：鹏哥分享_NON_64', server: hax.hostmeetingnow.tk, port: 80, type: vmess, uuid: 86606733-f014-46d5-e5e4-8dc4d9fb77d2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /api/v2/null, ws-headers: {Host: hax.hostmeetingnow.tk}}
-  - {name: 'YTB：鹏哥分享_NON_65', server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'YTB：鹏哥分享_1', server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'YTB：鹏哥分享_2', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 'YTB：鹏哥分享_3', server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
+  - {name: 'YTB：鹏哥分享_4', server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: 'YTB：鹏哥分享_5', server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
+  - {name: 'YTB：鹏哥分享_6', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'YTB：鹏哥分享_7', server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'YTB：鹏哥分享_8', server: 193.108.118.182, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'YTB：鹏哥分享_9', server: 193.108.118.182, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'YTB：鹏哥分享_10', server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'YTB：鹏哥分享_11', server: usjjs.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usjjs.52jjyun.top}}
+  - {name: 'YTB：鹏哥分享_12', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'YTB：鹏哥分享_13', server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YTB：鹏哥分享_NON_1
-      - YTB：鹏哥分享_NON_2
-      - YTB：鹏哥分享_NON_3
-      - YTB：鹏哥分享_NON_4
-      - YTB：鹏哥分享_NON_5
-      - YTB：鹏哥分享_NON_6
-      - YTB：鹏哥分享_NON_7
-      - YTB：鹏哥分享_NON_8
-      - YTB：鹏哥分享_NON_9
-      - YTB：鹏哥分享_NON_10
-      - YTB：鹏哥分享_NON_11
-      - YTB：鹏哥分享_NON_12
-      - YTB：鹏哥分享_NON_13
-      - YTB：鹏哥分享_NON_14
-      - YTB：鹏哥分享_NON_15
-      - YTB：鹏哥分享_NON_16
-      - YTB：鹏哥分享_NON_17
-      - YTB：鹏哥分享_NON_18
-      - YTB：鹏哥分享_NON_19
-      - YTB：鹏哥分享_NON_20
-      - YTB：鹏哥分享_NON_21
-      - YTB：鹏哥分享_NON_22
-      - YTB：鹏哥分享_NON_23
-      - YTB：鹏哥分享_NON_24
-      - YTB：鹏哥分享_NON_25
-      - YTB：鹏哥分享_NON_26
-      - YTB：鹏哥分享_NON_27
-      - YTB：鹏哥分享_NON_28
-      - YTB：鹏哥分享_NON_29
-      - YTB：鹏哥分享_NON_30
-      - YTB：鹏哥分享_NON_31
-      - YTB：鹏哥分享_NON_32
-      - YTB：鹏哥分享_NON_33
-      - YTB：鹏哥分享_NON_34
-      - YTB：鹏哥分享_NON_35
-      - YTB：鹏哥分享_NON_36
-      - YTB：鹏哥分享_NON_37
-      - YTB：鹏哥分享_NON_38
-      - YTB：鹏哥分享_NON_39
-      - YTB：鹏哥分享_NON_40
-      - YTB：鹏哥分享_NON_41
-      - YTB：鹏哥分享_NON_42
-      - YTB：鹏哥分享_NON_43
-      - YTB：鹏哥分享_NON_44
-      - YTB：鹏哥分享_NON_45
-      - YTB：鹏哥分享_NON_46
-      - YTB：鹏哥分享_NON_47
-      - YTB：鹏哥分享_NON_48
-      - YTB：鹏哥分享_NON_49
-      - YTB：鹏哥分享_NON_50
-      - YTB：鹏哥分享_NON_51
-      - YTB：鹏哥分享_NON_52
-      - YTB：鹏哥分享_NON_53
-      - YTB：鹏哥分享_NON_54
-      - YTB：鹏哥分享_NON_55
-      - YTB：鹏哥分享_NON_56
-      - YTB：鹏哥分享_NON_57
-      - YTB：鹏哥分享_NON_58
-      - YTB：鹏哥分享_NON_59
-      - YTB：鹏哥分享_NON_60
-      - YTB：鹏哥分享_NON_61
-      - YTB：鹏哥分享_NON_62
-      - YTB：鹏哥分享_NON_63
-      - YTB：鹏哥分享_NON_64
-      - YTB：鹏哥分享_NON_65
+      - YTB：鹏哥分享_1
+      - YTB：鹏哥分享_2
+      - YTB：鹏哥分享_3
+      - YTB：鹏哥分享_4
+      - YTB：鹏哥分享_5
+      - YTB：鹏哥分享_6
+      - YTB：鹏哥分享_7
+      - YTB：鹏哥分享_8
+      - YTB：鹏哥分享_9
+      - YTB：鹏哥分享_10
+      - YTB：鹏哥分享_11
+      - YTB：鹏哥分享_12
+      - YTB：鹏哥分享_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - YTB：鹏哥分享_NON_1
-      - YTB：鹏哥分享_NON_2
-      - YTB：鹏哥分享_NON_3
-      - YTB：鹏哥分享_NON_4
-      - YTB：鹏哥分享_NON_5
-      - YTB：鹏哥分享_NON_6
-      - YTB：鹏哥分享_NON_7
-      - YTB：鹏哥分享_NON_8
-      - YTB：鹏哥分享_NON_9
-      - YTB：鹏哥分享_NON_10
-      - YTB：鹏哥分享_NON_11
-      - YTB：鹏哥分享_NON_12
-      - YTB：鹏哥分享_NON_13
-      - YTB：鹏哥分享_NON_14
-      - YTB：鹏哥分享_NON_15
-      - YTB：鹏哥分享_NON_16
-      - YTB：鹏哥分享_NON_17
-      - YTB：鹏哥分享_NON_18
-      - YTB：鹏哥分享_NON_19
-      - YTB：鹏哥分享_NON_20
-      - YTB：鹏哥分享_NON_21
-      - YTB：鹏哥分享_NON_22
-      - YTB：鹏哥分享_NON_23
-      - YTB：鹏哥分享_NON_24
-      - YTB：鹏哥分享_NON_25
-      - YTB：鹏哥分享_NON_26
-      - YTB：鹏哥分享_NON_27
-      - YTB：鹏哥分享_NON_28
-      - YTB：鹏哥分享_NON_29
-      - YTB：鹏哥分享_NON_30
-      - YTB：鹏哥分享_NON_31
-      - YTB：鹏哥分享_NON_32
-      - YTB：鹏哥分享_NON_33
-      - YTB：鹏哥分享_NON_34
-      - YTB：鹏哥分享_NON_35
-      - YTB：鹏哥分享_NON_36
-      - YTB：鹏哥分享_NON_37
-      - YTB：鹏哥分享_NON_38
-      - YTB：鹏哥分享_NON_39
-      - YTB：鹏哥分享_NON_40
-      - YTB：鹏哥分享_NON_41
-      - YTB：鹏哥分享_NON_42
-      - YTB：鹏哥分享_NON_43
-      - YTB：鹏哥分享_NON_44
-      - YTB：鹏哥分享_NON_45
-      - YTB：鹏哥分享_NON_46
-      - YTB：鹏哥分享_NON_47
-      - YTB：鹏哥分享_NON_48
-      - YTB：鹏哥分享_NON_49
-      - YTB：鹏哥分享_NON_50
-      - YTB：鹏哥分享_NON_51
-      - YTB：鹏哥分享_NON_52
-      - YTB：鹏哥分享_NON_53
-      - YTB：鹏哥分享_NON_54
-      - YTB：鹏哥分享_NON_55
-      - YTB：鹏哥分享_NON_56
-      - YTB：鹏哥分享_NON_57
-      - YTB：鹏哥分享_NON_58
-      - YTB：鹏哥分享_NON_59
-      - YTB：鹏哥分享_NON_60
-      - YTB：鹏哥分享_NON_61
-      - YTB：鹏哥分享_NON_62
-      - YTB：鹏哥分享_NON_63
-      - YTB：鹏哥分享_NON_64
-      - YTB：鹏哥分享_NON_65
+      - YTB：鹏哥分享_1
+      - YTB：鹏哥分享_2
+      - YTB：鹏哥分享_3
+      - YTB：鹏哥分享_4
+      - YTB：鹏哥分享_5
+      - YTB：鹏哥分享_6
+      - YTB：鹏哥分享_7
+      - YTB：鹏哥分享_8
+      - YTB：鹏哥分享_9
+      - YTB：鹏哥分享_10
+      - YTB：鹏哥分享_11
+      - YTB：鹏哥分享_12
+      - YTB：鹏哥分享_13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YTB：鹏哥分享_NON_1
-      - YTB：鹏哥分享_NON_2
-      - YTB：鹏哥分享_NON_3
-      - YTB：鹏哥分享_NON_4
-      - YTB：鹏哥分享_NON_5
-      - YTB：鹏哥分享_NON_6
-      - YTB：鹏哥分享_NON_7
-      - YTB：鹏哥分享_NON_8
-      - YTB：鹏哥分享_NON_9
-      - YTB：鹏哥分享_NON_10
-      - YTB：鹏哥分享_NON_11
-      - YTB：鹏哥分享_NON_12
-      - YTB：鹏哥分享_NON_13
-      - YTB：鹏哥分享_NON_14
-      - YTB：鹏哥分享_NON_15
-      - YTB：鹏哥分享_NON_16
-      - YTB：鹏哥分享_NON_17
-      - YTB：鹏哥分享_NON_18
-      - YTB：鹏哥分享_NON_19
-      - YTB：鹏哥分享_NON_20
-      - YTB：鹏哥分享_NON_21
-      - YTB：鹏哥分享_NON_22
-      - YTB：鹏哥分享_NON_23
-      - YTB：鹏哥分享_NON_24
-      - YTB：鹏哥分享_NON_25
-      - YTB：鹏哥分享_NON_26
-      - YTB：鹏哥分享_NON_27
-      - YTB：鹏哥分享_NON_28
-      - YTB：鹏哥分享_NON_29
-      - YTB：鹏哥分享_NON_30
-      - YTB：鹏哥分享_NON_31
-      - YTB：鹏哥分享_NON_32
-      - YTB：鹏哥分享_NON_33
-      - YTB：鹏哥分享_NON_34
-      - YTB：鹏哥分享_NON_35
-      - YTB：鹏哥分享_NON_36
-      - YTB：鹏哥分享_NON_37
-      - YTB：鹏哥分享_NON_38
-      - YTB：鹏哥分享_NON_39
-      - YTB：鹏哥分享_NON_40
-      - YTB：鹏哥分享_NON_41
-      - YTB：鹏哥分享_NON_42
-      - YTB：鹏哥分享_NON_43
-      - YTB：鹏哥分享_NON_44
-      - YTB：鹏哥分享_NON_45
-      - YTB：鹏哥分享_NON_46
-      - YTB：鹏哥分享_NON_47
-      - YTB：鹏哥分享_NON_48
-      - YTB：鹏哥分享_NON_49
-      - YTB：鹏哥分享_NON_50
-      - YTB：鹏哥分享_NON_51
-      - YTB：鹏哥分享_NON_52
-      - YTB：鹏哥分享_NON_53
-      - YTB：鹏哥分享_NON_54
-      - YTB：鹏哥分享_NON_55
-      - YTB：鹏哥分享_NON_56
-      - YTB：鹏哥分享_NON_57
-      - YTB：鹏哥分享_NON_58
-      - YTB：鹏哥分享_NON_59
-      - YTB：鹏哥分享_NON_60
-      - YTB：鹏哥分享_NON_61
-      - YTB：鹏哥分享_NON_62
-      - YTB：鹏哥分享_NON_63
-      - YTB：鹏哥分享_NON_64
-      - YTB：鹏哥分享_NON_65
+      - YTB：鹏哥分享_1
+      - YTB：鹏哥分享_2
+      - YTB：鹏哥分享_3
+      - YTB：鹏哥分享_4
+      - YTB：鹏哥分享_5
+      - YTB：鹏哥分享_6
+      - YTB：鹏哥分享_7
+      - YTB：鹏哥分享_8
+      - YTB：鹏哥分享_9
+      - YTB：鹏哥分享_10
+      - YTB：鹏哥分享_11
+      - YTB：鹏哥分享_12
+      - YTB：鹏哥分享_13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - YTB：鹏哥分享_NON_1
-      - YTB：鹏哥分享_NON_2
-      - YTB：鹏哥分享_NON_3
-      - YTB：鹏哥分享_NON_4
-      - YTB：鹏哥分享_NON_5
-      - YTB：鹏哥分享_NON_6
-      - YTB：鹏哥分享_NON_7
-      - YTB：鹏哥分享_NON_8
-      - YTB：鹏哥分享_NON_9
-      - YTB：鹏哥分享_NON_10
-      - YTB：鹏哥分享_NON_11
-      - YTB：鹏哥分享_NON_12
-      - YTB：鹏哥分享_NON_13
-      - YTB：鹏哥分享_NON_14
-      - YTB：鹏哥分享_NON_15
-      - YTB：鹏哥分享_NON_16
-      - YTB：鹏哥分享_NON_17
-      - YTB：鹏哥分享_NON_18
-      - YTB：鹏哥分享_NON_19
-      - YTB：鹏哥分享_NON_20
-      - YTB：鹏哥分享_NON_21
-      - YTB：鹏哥分享_NON_22
-      - YTB：鹏哥分享_NON_23
-      - YTB：鹏哥分享_NON_24
-      - YTB：鹏哥分享_NON_25
-      - YTB：鹏哥分享_NON_26
-      - YTB：鹏哥分享_NON_27
-      - YTB：鹏哥分享_NON_28
-      - YTB：鹏哥分享_NON_29
-      - YTB：鹏哥分享_NON_30
-      - YTB：鹏哥分享_NON_31
-      - YTB：鹏哥分享_NON_32
-      - YTB：鹏哥分享_NON_33
-      - YTB：鹏哥分享_NON_34
-      - YTB：鹏哥分享_NON_35
-      - YTB：鹏哥分享_NON_36
-      - YTB：鹏哥分享_NON_37
-      - YTB：鹏哥分享_NON_38
-      - YTB：鹏哥分享_NON_39
-      - YTB：鹏哥分享_NON_40
-      - YTB：鹏哥分享_NON_41
-      - YTB：鹏哥分享_NON_42
-      - YTB：鹏哥分享_NON_43
-      - YTB：鹏哥分享_NON_44
-      - YTB：鹏哥分享_NON_45
-      - YTB：鹏哥分享_NON_46
-      - YTB：鹏哥分享_NON_47
-      - YTB：鹏哥分享_NON_48
-      - YTB：鹏哥分享_NON_49
-      - YTB：鹏哥分享_NON_50
-      - YTB：鹏哥分享_NON_51
-      - YTB：鹏哥分享_NON_52
-      - YTB：鹏哥分享_NON_53
-      - YTB：鹏哥分享_NON_54
-      - YTB：鹏哥分享_NON_55
-      - YTB：鹏哥分享_NON_56
-      - YTB：鹏哥分享_NON_57
-      - YTB：鹏哥分享_NON_58
-      - YTB：鹏哥分享_NON_59
-      - YTB：鹏哥分享_NON_60
-      - YTB：鹏哥分享_NON_61
-      - YTB：鹏哥分享_NON_62
-      - YTB：鹏哥分享_NON_63
-      - YTB：鹏哥分享_NON_64
-      - YTB：鹏哥分享_NON_65
+      - YTB：鹏哥分享_1
+      - YTB：鹏哥分享_2
+      - YTB：鹏哥分享_3
+      - YTB：鹏哥分享_4
+      - YTB：鹏哥分享_5
+      - YTB：鹏哥分享_6
+      - YTB：鹏哥分享_7
+      - YTB：鹏哥分享_8
+      - YTB：鹏哥分享_9
+      - YTB：鹏哥分享_10
+      - YTB：鹏哥分享_11
+      - YTB：鹏哥分享_12
+      - YTB：鹏哥分享_13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - YTB：鹏哥分享_NON_1
-      - YTB：鹏哥分享_NON_2
-      - YTB：鹏哥分享_NON_3
-      - YTB：鹏哥分享_NON_4
-      - YTB：鹏哥分享_NON_5
-      - YTB：鹏哥分享_NON_6
-      - YTB：鹏哥分享_NON_7
-      - YTB：鹏哥分享_NON_8
-      - YTB：鹏哥分享_NON_9
-      - YTB：鹏哥分享_NON_10
-      - YTB：鹏哥分享_NON_11
-      - YTB：鹏哥分享_NON_12
-      - YTB：鹏哥分享_NON_13
-      - YTB：鹏哥分享_NON_14
-      - YTB：鹏哥分享_NON_15
-      - YTB：鹏哥分享_NON_16
-      - YTB：鹏哥分享_NON_17
-      - YTB：鹏哥分享_NON_18
-      - YTB：鹏哥分享_NON_19
-      - YTB：鹏哥分享_NON_20
-      - YTB：鹏哥分享_NON_21
-      - YTB：鹏哥分享_NON_22
-      - YTB：鹏哥分享_NON_23
-      - YTB：鹏哥分享_NON_24
-      - YTB：鹏哥分享_NON_25
-      - YTB：鹏哥分享_NON_26
-      - YTB：鹏哥分享_NON_27
-      - YTB：鹏哥分享_NON_28
-      - YTB：鹏哥分享_NON_29
-      - YTB：鹏哥分享_NON_30
-      - YTB：鹏哥分享_NON_31
-      - YTB：鹏哥分享_NON_32
-      - YTB：鹏哥分享_NON_33
-      - YTB：鹏哥分享_NON_34
-      - YTB：鹏哥分享_NON_35
-      - YTB：鹏哥分享_NON_36
-      - YTB：鹏哥分享_NON_37
-      - YTB：鹏哥分享_NON_38
-      - YTB：鹏哥分享_NON_39
-      - YTB：鹏哥分享_NON_40
-      - YTB：鹏哥分享_NON_41
-      - YTB：鹏哥分享_NON_42
-      - YTB：鹏哥分享_NON_43
-      - YTB：鹏哥分享_NON_44
-      - YTB：鹏哥分享_NON_45
-      - YTB：鹏哥分享_NON_46
-      - YTB：鹏哥分享_NON_47
-      - YTB：鹏哥分享_NON_48
-      - YTB：鹏哥分享_NON_49
-      - YTB：鹏哥分享_NON_50
-      - YTB：鹏哥分享_NON_51
-      - YTB：鹏哥分享_NON_52
-      - YTB：鹏哥分享_NON_53
-      - YTB：鹏哥分享_NON_54
-      - YTB：鹏哥分享_NON_55
-      - YTB：鹏哥分享_NON_56
-      - YTB：鹏哥分享_NON_57
-      - YTB：鹏哥分享_NON_58
-      - YTB：鹏哥分享_NON_59
-      - YTB：鹏哥分享_NON_60
-      - YTB：鹏哥分享_NON_61
-      - YTB：鹏哥分享_NON_62
-      - YTB：鹏哥分享_NON_63
-      - YTB：鹏哥分享_NON_64
-      - YTB：鹏哥分享_NON_65
+      - YTB：鹏哥分享_1
+      - YTB：鹏哥分享_2
+      - YTB：鹏哥分享_3
+      - YTB：鹏哥分享_4
+      - YTB：鹏哥分享_5
+      - YTB：鹏哥分享_6
+      - YTB：鹏哥分享_7
+      - YTB：鹏哥分享_8
+      - YTB：鹏哥分享_9
+      - YTB：鹏哥分享_10
+      - YTB：鹏哥分享_11
+      - YTB：鹏哥分享_12
+      - YTB：鹏哥分享_13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - YTB：鹏哥分享_NON_1
-      - YTB：鹏哥分享_NON_2
-      - YTB：鹏哥分享_NON_3
-      - YTB：鹏哥分享_NON_4
-      - YTB：鹏哥分享_NON_5
-      - YTB：鹏哥分享_NON_6
-      - YTB：鹏哥分享_NON_7
-      - YTB：鹏哥分享_NON_8
-      - YTB：鹏哥分享_NON_9
-      - YTB：鹏哥分享_NON_10
-      - YTB：鹏哥分享_NON_11
-      - YTB：鹏哥分享_NON_12
-      - YTB：鹏哥分享_NON_13
-      - YTB：鹏哥分享_NON_14
-      - YTB：鹏哥分享_NON_15
-      - YTB：鹏哥分享_NON_16
-      - YTB：鹏哥分享_NON_17
-      - YTB：鹏哥分享_NON_18
-      - YTB：鹏哥分享_NON_19
-      - YTB：鹏哥分享_NON_20
-      - YTB：鹏哥分享_NON_21
-      - YTB：鹏哥分享_NON_22
-      - YTB：鹏哥分享_NON_23
-      - YTB：鹏哥分享_NON_24
-      - YTB：鹏哥分享_NON_25
-      - YTB：鹏哥分享_NON_26
-      - YTB：鹏哥分享_NON_27
-      - YTB：鹏哥分享_NON_28
-      - YTB：鹏哥分享_NON_29
-      - YTB：鹏哥分享_NON_30
-      - YTB：鹏哥分享_NON_31
-      - YTB：鹏哥分享_NON_32
-      - YTB：鹏哥分享_NON_33
-      - YTB：鹏哥分享_NON_34
-      - YTB：鹏哥分享_NON_35
-      - YTB：鹏哥分享_NON_36
-      - YTB：鹏哥分享_NON_37
-      - YTB：鹏哥分享_NON_38
-      - YTB：鹏哥分享_NON_39
-      - YTB：鹏哥分享_NON_40
-      - YTB：鹏哥分享_NON_41
-      - YTB：鹏哥分享_NON_42
-      - YTB：鹏哥分享_NON_43
-      - YTB：鹏哥分享_NON_44
-      - YTB：鹏哥分享_NON_45
-      - YTB：鹏哥分享_NON_46
-      - YTB：鹏哥分享_NON_47
-      - YTB：鹏哥分享_NON_48
-      - YTB：鹏哥分享_NON_49
-      - YTB：鹏哥分享_NON_50
-      - YTB：鹏哥分享_NON_51
-      - YTB：鹏哥分享_NON_52
-      - YTB：鹏哥分享_NON_53
-      - YTB：鹏哥分享_NON_54
-      - YTB：鹏哥分享_NON_55
-      - YTB：鹏哥分享_NON_56
-      - YTB：鹏哥分享_NON_57
-      - YTB：鹏哥分享_NON_58
-      - YTB：鹏哥分享_NON_59
-      - YTB：鹏哥分享_NON_60
-      - YTB：鹏哥分享_NON_61
-      - YTB：鹏哥分享_NON_62
-      - YTB：鹏哥分享_NON_63
-      - YTB：鹏哥分享_NON_64
-      - YTB：鹏哥分享_NON_65
+      - YTB：鹏哥分享_1
+      - YTB：鹏哥分享_2
+      - YTB：鹏哥分享_3
+      - YTB：鹏哥分享_4
+      - YTB：鹏哥分享_5
+      - YTB：鹏哥分享_6
+      - YTB：鹏哥分享_7
+      - YTB：鹏哥分享_8
+      - YTB：鹏哥分享_9
+      - YTB：鹏哥分享_10
+      - YTB：鹏哥分享_11
+      - YTB：鹏哥分享_12
+      - YTB：鹏哥分享_13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YTB：鹏哥分享_NON_1
-      - YTB：鹏哥分享_NON_2
-      - YTB：鹏哥分享_NON_3
-      - YTB：鹏哥分享_NON_4
-      - YTB：鹏哥分享_NON_5
-      - YTB：鹏哥分享_NON_6
-      - YTB：鹏哥分享_NON_7
-      - YTB：鹏哥分享_NON_8
-      - YTB：鹏哥分享_NON_9
-      - YTB：鹏哥分享_NON_10
-      - YTB：鹏哥分享_NON_11
-      - YTB：鹏哥分享_NON_12
-      - YTB：鹏哥分享_NON_13
-      - YTB：鹏哥分享_NON_14
-      - YTB：鹏哥分享_NON_15
-      - YTB：鹏哥分享_NON_16
-      - YTB：鹏哥分享_NON_17
-      - YTB：鹏哥分享_NON_18
-      - YTB：鹏哥分享_NON_19
-      - YTB：鹏哥分享_NON_20
-      - YTB：鹏哥分享_NON_21
-      - YTB：鹏哥分享_NON_22
-      - YTB：鹏哥分享_NON_23
-      - YTB：鹏哥分享_NON_24
-      - YTB：鹏哥分享_NON_25
-      - YTB：鹏哥分享_NON_26
-      - YTB：鹏哥分享_NON_27
-      - YTB：鹏哥分享_NON_28
-      - YTB：鹏哥分享_NON_29
-      - YTB：鹏哥分享_NON_30
-      - YTB：鹏哥分享_NON_31
-      - YTB：鹏哥分享_NON_32
-      - YTB：鹏哥分享_NON_33
-      - YTB：鹏哥分享_NON_34
-      - YTB：鹏哥分享_NON_35
-      - YTB：鹏哥分享_NON_36
-      - YTB：鹏哥分享_NON_37
-      - YTB：鹏哥分享_NON_38
-      - YTB：鹏哥分享_NON_39
-      - YTB：鹏哥分享_NON_40
-      - YTB：鹏哥分享_NON_41
-      - YTB：鹏哥分享_NON_42
-      - YTB：鹏哥分享_NON_43
-      - YTB：鹏哥分享_NON_44
-      - YTB：鹏哥分享_NON_45
-      - YTB：鹏哥分享_NON_46
-      - YTB：鹏哥分享_NON_47
-      - YTB：鹏哥分享_NON_48
-      - YTB：鹏哥分享_NON_49
-      - YTB：鹏哥分享_NON_50
-      - YTB：鹏哥分享_NON_51
-      - YTB：鹏哥分享_NON_52
-      - YTB：鹏哥分享_NON_53
-      - YTB：鹏哥分享_NON_54
-      - YTB：鹏哥分享_NON_55
-      - YTB：鹏哥分享_NON_56
-      - YTB：鹏哥分享_NON_57
-      - YTB：鹏哥分享_NON_58
-      - YTB：鹏哥分享_NON_59
-      - YTB：鹏哥分享_NON_60
-      - YTB：鹏哥分享_NON_61
-      - YTB：鹏哥分享_NON_62
-      - YTB：鹏哥分享_NON_63
-      - YTB：鹏哥分享_NON_64
-      - YTB：鹏哥分享_NON_65
+      - YTB：鹏哥分享_1
+      - YTB：鹏哥分享_2
+      - YTB：鹏哥分享_3
+      - YTB：鹏哥分享_4
+      - YTB：鹏哥分享_5
+      - YTB：鹏哥分享_6
+      - YTB：鹏哥分享_7
+      - YTB：鹏哥分享_8
+      - YTB：鹏哥分享_9
+      - YTB：鹏哥分享_10
+      - YTB：鹏哥分享_11
+      - YTB：鹏哥分享_12
+      - YTB：鹏哥分享_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -578,71 +162,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YTB：鹏哥分享_NON_1
-      - YTB：鹏哥分享_NON_2
-      - YTB：鹏哥分享_NON_3
-      - YTB：鹏哥分享_NON_4
-      - YTB：鹏哥分享_NON_5
-      - YTB：鹏哥分享_NON_6
-      - YTB：鹏哥分享_NON_7
-      - YTB：鹏哥分享_NON_8
-      - YTB：鹏哥分享_NON_9
-      - YTB：鹏哥分享_NON_10
-      - YTB：鹏哥分享_NON_11
-      - YTB：鹏哥分享_NON_12
-      - YTB：鹏哥分享_NON_13
-      - YTB：鹏哥分享_NON_14
-      - YTB：鹏哥分享_NON_15
-      - YTB：鹏哥分享_NON_16
-      - YTB：鹏哥分享_NON_17
-      - YTB：鹏哥分享_NON_18
-      - YTB：鹏哥分享_NON_19
-      - YTB：鹏哥分享_NON_20
-      - YTB：鹏哥分享_NON_21
-      - YTB：鹏哥分享_NON_22
-      - YTB：鹏哥分享_NON_23
-      - YTB：鹏哥分享_NON_24
-      - YTB：鹏哥分享_NON_25
-      - YTB：鹏哥分享_NON_26
-      - YTB：鹏哥分享_NON_27
-      - YTB：鹏哥分享_NON_28
-      - YTB：鹏哥分享_NON_29
-      - YTB：鹏哥分享_NON_30
-      - YTB：鹏哥分享_NON_31
-      - YTB：鹏哥分享_NON_32
-      - YTB：鹏哥分享_NON_33
-      - YTB：鹏哥分享_NON_34
-      - YTB：鹏哥分享_NON_35
-      - YTB：鹏哥分享_NON_36
-      - YTB：鹏哥分享_NON_37
-      - YTB：鹏哥分享_NON_38
-      - YTB：鹏哥分享_NON_39
-      - YTB：鹏哥分享_NON_40
-      - YTB：鹏哥分享_NON_41
-      - YTB：鹏哥分享_NON_42
-      - YTB：鹏哥分享_NON_43
-      - YTB：鹏哥分享_NON_44
-      - YTB：鹏哥分享_NON_45
-      - YTB：鹏哥分享_NON_46
-      - YTB：鹏哥分享_NON_47
-      - YTB：鹏哥分享_NON_48
-      - YTB：鹏哥分享_NON_49
-      - YTB：鹏哥分享_NON_50
-      - YTB：鹏哥分享_NON_51
-      - YTB：鹏哥分享_NON_52
-      - YTB：鹏哥分享_NON_53
-      - YTB：鹏哥分享_NON_54
-      - YTB：鹏哥分享_NON_55
-      - YTB：鹏哥分享_NON_56
-      - YTB：鹏哥分享_NON_57
-      - YTB：鹏哥分享_NON_58
-      - YTB：鹏哥分享_NON_59
-      - YTB：鹏哥分享_NON_60
-      - YTB：鹏哥分享_NON_61
-      - YTB：鹏哥分享_NON_62
-      - YTB：鹏哥分享_NON_63
-      - YTB：鹏哥分享_NON_64
-      - YTB：鹏哥分享_NON_65
+      - YTB：鹏哥分享_1
+      - YTB：鹏哥分享_2
+      - YTB：鹏哥分享_3
+      - YTB：鹏哥分享_4
+      - YTB：鹏哥分享_5
+      - YTB：鹏哥分享_6
+      - YTB：鹏哥分享_7
+      - YTB：鹏哥分享_8
+      - YTB：鹏哥分享_9
+      - YTB：鹏哥分享_10
+      - YTB：鹏哥分享_11
+      - YTB：鹏哥分享_12
+      - YTB：鹏哥分享_13
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
