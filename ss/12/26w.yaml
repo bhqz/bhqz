@@ -5,1236 +5,964 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '鹏哥分享_1', server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_2', server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_3', server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_4', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '鹏哥分享_5', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: '鹏哥分享_6', server: iepl.sg.bd6f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_7', server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_8', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_9', server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_10', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: '鹏哥分享_11', server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_12', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '鹏哥分享_13', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: '鹏哥分享_14', server: 120.241.72.90, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
-  - {name: '鹏哥分享_15', server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
-  - {name: '鹏哥分享_16', server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_17', server: 00.cn3.rocketdns.xyz, port: 65015, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_18', server: 116.163.10.145, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_19', server: 116.163.10.145, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_20', server: iepl.sg.d6e4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_21', server: iepl.tw.4edb.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_22', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '鹏哥分享_23', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_24', server: 120.232.82.190, port: 3002, type: ss, cipher: aes-256-gcm, password: 16b33a734063d5bb793634198ca90b73}
-  - {name: '鹏哥分享_25', server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_26', server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_27', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '鹏哥分享_28', server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_29', server: 116.163.14.146, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_30', server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_31', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '鹏哥分享_32', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '鹏哥分享_33', server: 120.232.173.66, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: '鹏哥分享_34', server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_35', server: 120.241.72.97, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
-  - {name: '鹏哥分享_36', server: 116.163.14.146, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_37', server: 139.227.161.129, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '鹏哥分享_38', server: 116.163.10.145, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_39', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_40', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_41', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '鹏哥分享_42', server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_43', server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_44', server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_45', server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_46', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_47', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_48', server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '鹏哥分享_49', server: 120.241.72.97, port: 18123, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
-  - {name: '鹏哥分享_50', server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_51', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_52', server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_53', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '鹏哥分享_54', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '鹏哥分享_55', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_56', server: iepl.sg.e0c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_57', server: 211.99.96.34, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_58', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_59', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '鹏哥分享_60', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_61', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '鹏哥分享_62', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_63', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
-  - {name: '鹏哥分享_64', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_65', server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: '鹏哥分享_66', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: '鹏哥分享_67', server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_68', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: '鹏哥分享_69', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_70', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '鹏哥分享_71', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '鹏哥分享_72', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '鹏哥分享_73', server: 211.99.96.17, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_74', server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_75', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '鹏哥分享_76', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: '鹏哥分享_77', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '鹏哥分享_78', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: '鹏哥分享_79', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '鹏哥分享_80', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_81', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_82', server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '鹏哥分享_83', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '鹏哥分享_84', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: '鹏哥分享_85', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
-  - {name: '鹏哥分享_86', server: 211.99.96.13, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_87', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_88', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_89', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_90', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_91', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_92', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_93', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: '鹏哥分享_94', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: '鹏哥分享_95', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '鹏哥分享_96', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_97', server: hz.marslink.icu, port: 41100, type: ss, cipher: chacha20-ietf-poly1305, password: 4d0d8943-dea3-4d9b-8ae1-cddb560b267c}
-  - {name: '鹏哥分享_98', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_99', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: '鹏哥分享_100', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: '鹏哥分享_101', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '鹏哥分享_102', server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '鹏哥分享_103', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_104', server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0}
-  - {name: '鹏哥分享_105', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: '鹏哥分享_106', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '鹏哥分享_107', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '鹏哥分享_108', server: 211.99.96.32, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_109', server: 211.99.96.16, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_110', server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_111', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '鹏哥分享_112', server: 211.99.96.31, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_113', server: 211.99.96.36, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_114', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_115', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: '鹏哥分享_116', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
-  - {name: '鹏哥分享_117', server: 211.99.96.11, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_118', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_119', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '鹏哥分享_120', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: '鹏哥分享_121', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '鹏哥分享_122', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '鹏哥分享_123', server: 211.99.96.9, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_124', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
-  - {name: '鹏哥分享_125', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_126', server: 185.212.149.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
-  - {name: '鹏哥分享_127', server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
-  - {name: '鹏哥分享_128', server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
-  - {name: '鹏哥分享_129', server: 211.99.96.35, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_130', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_131', server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: '鹏哥分享_132', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: '鹏哥分享_133', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: '鹏哥分享_134', server: 211.99.96.19, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_135', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '鹏哥分享_136', server: 45.141.154.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: sHWJUzzQUXtQSR2P6HNJ}
-  - {name: '鹏哥分享_137', server: 211.99.96.33, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: '鹏哥分享_138', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: '鹏哥分享_139', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '鹏哥分享_140', server: 185.51.134.210, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: '鹏哥分享_141', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: '鹏哥分享_142', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '鹏哥分享_143', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '鹏哥分享_144', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '鹏哥分享_145', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '鹏哥分享_146', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '鹏哥分享_147', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '鹏哥分享_148', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '鹏哥分享_149', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_1', server: hz.marslink.icu, port: 41100, type: ss, cipher: chacha20-ietf-poly1305, password: 4d0d8943-dea3-4d9b-8ae1-cddb560b267c}
+  - {name: 'Ytb:鹏哥分享_2', server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_3', server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_4', server: 120.232.173.66, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Ytb:鹏哥分享_5', server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9}
+  - {name: 'Ytb:鹏哥分享_6', server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: 'Ytb:鹏哥分享_7', server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_8', server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_9', server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_10', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_11', server: 00.cn3.rocketdns.xyz, port: 65015, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_12', server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Ytb:鹏哥分享_13', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'Ytb:鹏哥分享_14', server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_15', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: 'Ytb:鹏哥分享_16', server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_17', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:鹏哥分享_18', server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: 'Ytb:鹏哥分享_19', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_20', server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_21', server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_22', server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_23', server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_24', server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:鹏哥分享_25', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_26', server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 'Ytb:鹏哥分享_27', server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:鹏哥分享_28', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_29', server: iepl.sg.d6e4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_30', server: 211.99.96.32, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_31', server: 211.99.96.33, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_32', server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'Ytb:鹏哥分享_33', server: 116.163.10.145, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_34', server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Ytb:鹏哥分享_35', server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_36', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_37', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_38', server: 211.99.96.16, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_39', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: 'Ytb:鹏哥分享_40', server: 211.99.96.35, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_41', server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_42', server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_43', server: iepl.tw.4edb.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_44', server: 120.232.82.190, port: 3002, type: ss, cipher: aes-256-gcm, password: 16b33a734063d5bb793634198ca90b73}
+  - {name: 'Ytb:鹏哥分享_45', server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_46', server: 116.163.14.146, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_47', server: 116.163.14.146, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_48', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: 'Ytb:鹏哥分享_49', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: 'Ytb:鹏哥分享_50', server: 211.99.96.9, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_51', server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_52', server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_53', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:鹏哥分享_54', server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_55', server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_56', server: 211.99.96.34, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_57', server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_58', server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_59', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Ytb:鹏哥分享_60', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: 'Ytb:鹏哥分享_61', server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: 'Ytb:鹏哥分享_62', server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_63', server: iepl.hk.0686.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_64', server: iepl.sg.bd6f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_65', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_66', server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_67', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: 'Ytb:鹏哥分享_68', server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: 'Ytb:鹏哥分享_69', server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_70', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_71', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_72', server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_73', server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_74', server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_75', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_76', server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_77', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_78', server: iepl.hk.f663.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_79', server: 211.99.96.11, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_80', server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_81', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_82', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_83', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_84', server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: 'Ytb:鹏哥分享_85', server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:鹏哥分享_86', server: 169.38.107.52, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: 'Ytb:鹏哥分享_87', server: 120.241.72.90, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: 'Ytb:鹏哥分享_88', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_89', server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:鹏哥分享_90', server: 120.241.72.97, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: 'Ytb:鹏哥分享_91', server: 116.163.10.145, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: 'Ytb:鹏哥分享_92', server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_93', server: 120.241.72.97, port: 18123, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing}
+  - {name: 'Ytb:鹏哥分享_94', server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Ytb:鹏哥分享_95', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:鹏哥分享_96', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_97', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:鹏哥分享_98', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_99', server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_100', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_101', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_102', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: 'Ytb:鹏哥分享_103', server: 211.99.96.13, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: 'Ytb:鹏哥分享_104', server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_105', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_106', server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:鹏哥分享_107', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_108', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_109', server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_110', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: 'Ytb:鹏哥分享_111', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_112', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_113', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: 'Ytb:鹏哥分享_114', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_115', server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 鹏哥分享_1
-      - 鹏哥分享_2
-      - 鹏哥分享_3
-      - 鹏哥分享_4
-      - 鹏哥分享_5
-      - 鹏哥分享_6
-      - 鹏哥分享_7
-      - 鹏哥分享_8
-      - 鹏哥分享_9
-      - 鹏哥分享_10
-      - 鹏哥分享_11
-      - 鹏哥分享_12
-      - 鹏哥分享_13
-      - 鹏哥分享_14
-      - 鹏哥分享_15
-      - 鹏哥分享_16
-      - 鹏哥分享_17
-      - 鹏哥分享_18
-      - 鹏哥分享_19
-      - 鹏哥分享_20
-      - 鹏哥分享_21
-      - 鹏哥分享_22
-      - 鹏哥分享_23
-      - 鹏哥分享_24
-      - 鹏哥分享_25
-      - 鹏哥分享_26
-      - 鹏哥分享_27
-      - 鹏哥分享_28
-      - 鹏哥分享_29
-      - 鹏哥分享_30
-      - 鹏哥分享_31
-      - 鹏哥分享_32
-      - 鹏哥分享_33
-      - 鹏哥分享_34
-      - 鹏哥分享_35
-      - 鹏哥分享_36
-      - 鹏哥分享_37
-      - 鹏哥分享_38
-      - 鹏哥分享_39
-      - 鹏哥分享_40
-      - 鹏哥分享_41
-      - 鹏哥分享_42
-      - 鹏哥分享_43
-      - 鹏哥分享_44
-      - 鹏哥分享_45
-      - 鹏哥分享_46
-      - 鹏哥分享_47
-      - 鹏哥分享_48
-      - 鹏哥分享_49
-      - 鹏哥分享_50
-      - 鹏哥分享_51
-      - 鹏哥分享_52
-      - 鹏哥分享_53
-      - 鹏哥分享_54
-      - 鹏哥分享_55
-      - 鹏哥分享_56
-      - 鹏哥分享_57
-      - 鹏哥分享_58
-      - 鹏哥分享_59
-      - 鹏哥分享_60
-      - 鹏哥分享_61
-      - 鹏哥分享_62
-      - 鹏哥分享_63
-      - 鹏哥分享_64
-      - 鹏哥分享_65
-      - 鹏哥分享_66
-      - 鹏哥分享_67
-      - 鹏哥分享_68
-      - 鹏哥分享_69
-      - 鹏哥分享_70
-      - 鹏哥分享_71
-      - 鹏哥分享_72
-      - 鹏哥分享_73
-      - 鹏哥分享_74
-      - 鹏哥分享_75
-      - 鹏哥分享_76
-      - 鹏哥分享_77
-      - 鹏哥分享_78
-      - 鹏哥分享_79
-      - 鹏哥分享_80
-      - 鹏哥分享_81
-      - 鹏哥分享_82
-      - 鹏哥分享_83
-      - 鹏哥分享_84
-      - 鹏哥分享_85
-      - 鹏哥分享_86
-      - 鹏哥分享_87
-      - 鹏哥分享_88
-      - 鹏哥分享_89
-      - 鹏哥分享_90
-      - 鹏哥分享_91
-      - 鹏哥分享_92
-      - 鹏哥分享_93
-      - 鹏哥分享_94
-      - 鹏哥分享_95
-      - 鹏哥分享_96
-      - 鹏哥分享_97
-      - 鹏哥分享_98
-      - 鹏哥分享_99
-      - 鹏哥分享_100
-      - 鹏哥分享_101
-      - 鹏哥分享_102
-      - 鹏哥分享_103
-      - 鹏哥分享_104
-      - 鹏哥分享_105
-      - 鹏哥分享_106
-      - 鹏哥分享_107
-      - 鹏哥分享_108
-      - 鹏哥分享_109
-      - 鹏哥分享_110
-      - 鹏哥分享_111
-      - 鹏哥分享_112
-      - 鹏哥分享_113
-      - 鹏哥分享_114
-      - 鹏哥分享_115
-      - 鹏哥分享_116
-      - 鹏哥分享_117
-      - 鹏哥分享_118
-      - 鹏哥分享_119
-      - 鹏哥分享_120
-      - 鹏哥分享_121
-      - 鹏哥分享_122
-      - 鹏哥分享_123
-      - 鹏哥分享_124
-      - 鹏哥分享_125
-      - 鹏哥分享_126
-      - 鹏哥分享_127
-      - 鹏哥分享_128
-      - 鹏哥分享_129
-      - 鹏哥分享_130
-      - 鹏哥分享_131
-      - 鹏哥分享_132
-      - 鹏哥分享_133
-      - 鹏哥分享_134
-      - 鹏哥分享_135
-      - 鹏哥分享_136
-      - 鹏哥分享_137
-      - 鹏哥分享_138
-      - 鹏哥分享_139
-      - 鹏哥分享_140
-      - 鹏哥分享_141
-      - 鹏哥分享_142
-      - 鹏哥分享_143
-      - 鹏哥分享_144
-      - 鹏哥分享_145
-      - 鹏哥分享_146
-      - 鹏哥分享_147
-      - 鹏哥分享_148
-      - 鹏哥分享_149
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_9
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
+      - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
+      - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
+      - Ytb:鹏哥分享_34
+      - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
+      - Ytb:鹏哥分享_48
+      - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
+      - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
+      - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
+      - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
+      - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
+      - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
+      - Ytb:鹏哥分享_87
+      - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
+      - Ytb:鹏哥分享_92
+      - Ytb:鹏哥分享_93
+      - Ytb:鹏哥分享_94
+      - Ytb:鹏哥分享_95
+      - Ytb:鹏哥分享_96
+      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_98
+      - Ytb:鹏哥分享_99
+      - Ytb:鹏哥分享_100
+      - Ytb:鹏哥分享_101
+      - Ytb:鹏哥分享_102
+      - Ytb:鹏哥分享_103
+      - Ytb:鹏哥分享_104
+      - Ytb:鹏哥分享_105
+      - Ytb:鹏哥分享_106
+      - Ytb:鹏哥分享_107
+      - Ytb:鹏哥分享_108
+      - Ytb:鹏哥分享_109
+      - Ytb:鹏哥分享_110
+      - Ytb:鹏哥分享_111
+      - Ytb:鹏哥分享_112
+      - Ytb:鹏哥分享_113
+      - Ytb:鹏哥分享_114
+      - Ytb:鹏哥分享_115
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 鹏哥分享_1
-      - 鹏哥分享_2
-      - 鹏哥分享_3
-      - 鹏哥分享_4
-      - 鹏哥分享_5
-      - 鹏哥分享_6
-      - 鹏哥分享_7
-      - 鹏哥分享_8
-      - 鹏哥分享_9
-      - 鹏哥分享_10
-      - 鹏哥分享_11
-      - 鹏哥分享_12
-      - 鹏哥分享_13
-      - 鹏哥分享_14
-      - 鹏哥分享_15
-      - 鹏哥分享_16
-      - 鹏哥分享_17
-      - 鹏哥分享_18
-      - 鹏哥分享_19
-      - 鹏哥分享_20
-      - 鹏哥分享_21
-      - 鹏哥分享_22
-      - 鹏哥分享_23
-      - 鹏哥分享_24
-      - 鹏哥分享_25
-      - 鹏哥分享_26
-      - 鹏哥分享_27
-      - 鹏哥分享_28
-      - 鹏哥分享_29
-      - 鹏哥分享_30
-      - 鹏哥分享_31
-      - 鹏哥分享_32
-      - 鹏哥分享_33
-      - 鹏哥分享_34
-      - 鹏哥分享_35
-      - 鹏哥分享_36
-      - 鹏哥分享_37
-      - 鹏哥分享_38
-      - 鹏哥分享_39
-      - 鹏哥分享_40
-      - 鹏哥分享_41
-      - 鹏哥分享_42
-      - 鹏哥分享_43
-      - 鹏哥分享_44
-      - 鹏哥分享_45
-      - 鹏哥分享_46
-      - 鹏哥分享_47
-      - 鹏哥分享_48
-      - 鹏哥分享_49
-      - 鹏哥分享_50
-      - 鹏哥分享_51
-      - 鹏哥分享_52
-      - 鹏哥分享_53
-      - 鹏哥分享_54
-      - 鹏哥分享_55
-      - 鹏哥分享_56
-      - 鹏哥分享_57
-      - 鹏哥分享_58
-      - 鹏哥分享_59
-      - 鹏哥分享_60
-      - 鹏哥分享_61
-      - 鹏哥分享_62
-      - 鹏哥分享_63
-      - 鹏哥分享_64
-      - 鹏哥分享_65
-      - 鹏哥分享_66
-      - 鹏哥分享_67
-      - 鹏哥分享_68
-      - 鹏哥分享_69
-      - 鹏哥分享_70
-      - 鹏哥分享_71
-      - 鹏哥分享_72
-      - 鹏哥分享_73
-      - 鹏哥分享_74
-      - 鹏哥分享_75
-      - 鹏哥分享_76
-      - 鹏哥分享_77
-      - 鹏哥分享_78
-      - 鹏哥分享_79
-      - 鹏哥分享_80
-      - 鹏哥分享_81
-      - 鹏哥分享_82
-      - 鹏哥分享_83
-      - 鹏哥分享_84
-      - 鹏哥分享_85
-      - 鹏哥分享_86
-      - 鹏哥分享_87
-      - 鹏哥分享_88
-      - 鹏哥分享_89
-      - 鹏哥分享_90
-      - 鹏哥分享_91
-      - 鹏哥分享_92
-      - 鹏哥分享_93
-      - 鹏哥分享_94
-      - 鹏哥分享_95
-      - 鹏哥分享_96
-      - 鹏哥分享_97
-      - 鹏哥分享_98
-      - 鹏哥分享_99
-      - 鹏哥分享_100
-      - 鹏哥分享_101
-      - 鹏哥分享_102
-      - 鹏哥分享_103
-      - 鹏哥分享_104
-      - 鹏哥分享_105
-      - 鹏哥分享_106
-      - 鹏哥分享_107
-      - 鹏哥分享_108
-      - 鹏哥分享_109
-      - 鹏哥分享_110
-      - 鹏哥分享_111
-      - 鹏哥分享_112
-      - 鹏哥分享_113
-      - 鹏哥分享_114
-      - 鹏哥分享_115
-      - 鹏哥分享_116
-      - 鹏哥分享_117
-      - 鹏哥分享_118
-      - 鹏哥分享_119
-      - 鹏哥分享_120
-      - 鹏哥分享_121
-      - 鹏哥分享_122
-      - 鹏哥分享_123
-      - 鹏哥分享_124
-      - 鹏哥分享_125
-      - 鹏哥分享_126
-      - 鹏哥分享_127
-      - 鹏哥分享_128
-      - 鹏哥分享_129
-      - 鹏哥分享_130
-      - 鹏哥分享_131
-      - 鹏哥分享_132
-      - 鹏哥分享_133
-      - 鹏哥分享_134
-      - 鹏哥分享_135
-      - 鹏哥分享_136
-      - 鹏哥分享_137
-      - 鹏哥分享_138
-      - 鹏哥分享_139
-      - 鹏哥分享_140
-      - 鹏哥分享_141
-      - 鹏哥分享_142
-      - 鹏哥分享_143
-      - 鹏哥分享_144
-      - 鹏哥分享_145
-      - 鹏哥分享_146
-      - 鹏哥分享_147
-      - 鹏哥分享_148
-      - 鹏哥分享_149
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_9
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
+      - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
+      - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
+      - Ytb:鹏哥分享_34
+      - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
+      - Ytb:鹏哥分享_48
+      - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
+      - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
+      - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
+      - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
+      - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
+      - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
+      - Ytb:鹏哥分享_87
+      - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
+      - Ytb:鹏哥分享_92
+      - Ytb:鹏哥分享_93
+      - Ytb:鹏哥分享_94
+      - Ytb:鹏哥分享_95
+      - Ytb:鹏哥分享_96
+      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_98
+      - Ytb:鹏哥分享_99
+      - Ytb:鹏哥分享_100
+      - Ytb:鹏哥分享_101
+      - Ytb:鹏哥分享_102
+      - Ytb:鹏哥分享_103
+      - Ytb:鹏哥分享_104
+      - Ytb:鹏哥分享_105
+      - Ytb:鹏哥分享_106
+      - Ytb:鹏哥分享_107
+      - Ytb:鹏哥分享_108
+      - Ytb:鹏哥分享_109
+      - Ytb:鹏哥分享_110
+      - Ytb:鹏哥分享_111
+      - Ytb:鹏哥分享_112
+      - Ytb:鹏哥分享_113
+      - Ytb:鹏哥分享_114
+      - Ytb:鹏哥分享_115
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 鹏哥分享_1
-      - 鹏哥分享_2
-      - 鹏哥分享_3
-      - 鹏哥分享_4
-      - 鹏哥分享_5
-      - 鹏哥分享_6
-      - 鹏哥分享_7
-      - 鹏哥分享_8
-      - 鹏哥分享_9
-      - 鹏哥分享_10
-      - 鹏哥分享_11
-      - 鹏哥分享_12
-      - 鹏哥分享_13
-      - 鹏哥分享_14
-      - 鹏哥分享_15
-      - 鹏哥分享_16
-      - 鹏哥分享_17
-      - 鹏哥分享_18
-      - 鹏哥分享_19
-      - 鹏哥分享_20
-      - 鹏哥分享_21
-      - 鹏哥分享_22
-      - 鹏哥分享_23
-      - 鹏哥分享_24
-      - 鹏哥分享_25
-      - 鹏哥分享_26
-      - 鹏哥分享_27
-      - 鹏哥分享_28
-      - 鹏哥分享_29
-      - 鹏哥分享_30
-      - 鹏哥分享_31
-      - 鹏哥分享_32
-      - 鹏哥分享_33
-      - 鹏哥分享_34
-      - 鹏哥分享_35
-      - 鹏哥分享_36
-      - 鹏哥分享_37
-      - 鹏哥分享_38
-      - 鹏哥分享_39
-      - 鹏哥分享_40
-      - 鹏哥分享_41
-      - 鹏哥分享_42
-      - 鹏哥分享_43
-      - 鹏哥分享_44
-      - 鹏哥分享_45
-      - 鹏哥分享_46
-      - 鹏哥分享_47
-      - 鹏哥分享_48
-      - 鹏哥分享_49
-      - 鹏哥分享_50
-      - 鹏哥分享_51
-      - 鹏哥分享_52
-      - 鹏哥分享_53
-      - 鹏哥分享_54
-      - 鹏哥分享_55
-      - 鹏哥分享_56
-      - 鹏哥分享_57
-      - 鹏哥分享_58
-      - 鹏哥分享_59
-      - 鹏哥分享_60
-      - 鹏哥分享_61
-      - 鹏哥分享_62
-      - 鹏哥分享_63
-      - 鹏哥分享_64
-      - 鹏哥分享_65
-      - 鹏哥分享_66
-      - 鹏哥分享_67
-      - 鹏哥分享_68
-      - 鹏哥分享_69
-      - 鹏哥分享_70
-      - 鹏哥分享_71
-      - 鹏哥分享_72
-      - 鹏哥分享_73
-      - 鹏哥分享_74
-      - 鹏哥分享_75
-      - 鹏哥分享_76
-      - 鹏哥分享_77
-      - 鹏哥分享_78
-      - 鹏哥分享_79
-      - 鹏哥分享_80
-      - 鹏哥分享_81
-      - 鹏哥分享_82
-      - 鹏哥分享_83
-      - 鹏哥分享_84
-      - 鹏哥分享_85
-      - 鹏哥分享_86
-      - 鹏哥分享_87
-      - 鹏哥分享_88
-      - 鹏哥分享_89
-      - 鹏哥分享_90
-      - 鹏哥分享_91
-      - 鹏哥分享_92
-      - 鹏哥分享_93
-      - 鹏哥分享_94
-      - 鹏哥分享_95
-      - 鹏哥分享_96
-      - 鹏哥分享_97
-      - 鹏哥分享_98
-      - 鹏哥分享_99
-      - 鹏哥分享_100
-      - 鹏哥分享_101
-      - 鹏哥分享_102
-      - 鹏哥分享_103
-      - 鹏哥分享_104
-      - 鹏哥分享_105
-      - 鹏哥分享_106
-      - 鹏哥分享_107
-      - 鹏哥分享_108
-      - 鹏哥分享_109
-      - 鹏哥分享_110
-      - 鹏哥分享_111
-      - 鹏哥分享_112
-      - 鹏哥分享_113
-      - 鹏哥分享_114
-      - 鹏哥分享_115
-      - 鹏哥分享_116
-      - 鹏哥分享_117
-      - 鹏哥分享_118
-      - 鹏哥分享_119
-      - 鹏哥分享_120
-      - 鹏哥分享_121
-      - 鹏哥分享_122
-      - 鹏哥分享_123
-      - 鹏哥分享_124
-      - 鹏哥分享_125
-      - 鹏哥分享_126
-      - 鹏哥分享_127
-      - 鹏哥分享_128
-      - 鹏哥分享_129
-      - 鹏哥分享_130
-      - 鹏哥分享_131
-      - 鹏哥分享_132
-      - 鹏哥分享_133
-      - 鹏哥分享_134
-      - 鹏哥分享_135
-      - 鹏哥分享_136
-      - 鹏哥分享_137
-      - 鹏哥分享_138
-      - 鹏哥分享_139
-      - 鹏哥分享_140
-      - 鹏哥分享_141
-      - 鹏哥分享_142
-      - 鹏哥分享_143
-      - 鹏哥分享_144
-      - 鹏哥分享_145
-      - 鹏哥分享_146
-      - 鹏哥分享_147
-      - 鹏哥分享_148
-      - 鹏哥分享_149
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_9
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
+      - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
+      - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
+      - Ytb:鹏哥分享_34
+      - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
+      - Ytb:鹏哥分享_48
+      - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
+      - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
+      - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
+      - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
+      - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
+      - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
+      - Ytb:鹏哥分享_87
+      - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
+      - Ytb:鹏哥分享_92
+      - Ytb:鹏哥分享_93
+      - Ytb:鹏哥分享_94
+      - Ytb:鹏哥分享_95
+      - Ytb:鹏哥分享_96
+      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_98
+      - Ytb:鹏哥分享_99
+      - Ytb:鹏哥分享_100
+      - Ytb:鹏哥分享_101
+      - Ytb:鹏哥分享_102
+      - Ytb:鹏哥分享_103
+      - Ytb:鹏哥分享_104
+      - Ytb:鹏哥分享_105
+      - Ytb:鹏哥分享_106
+      - Ytb:鹏哥分享_107
+      - Ytb:鹏哥分享_108
+      - Ytb:鹏哥分享_109
+      - Ytb:鹏哥分享_110
+      - Ytb:鹏哥分享_111
+      - Ytb:鹏哥分享_112
+      - Ytb:鹏哥分享_113
+      - Ytb:鹏哥分享_114
+      - Ytb:鹏哥分享_115
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 鹏哥分享_1
-      - 鹏哥分享_2
-      - 鹏哥分享_3
-      - 鹏哥分享_4
-      - 鹏哥分享_5
-      - 鹏哥分享_6
-      - 鹏哥分享_7
-      - 鹏哥分享_8
-      - 鹏哥分享_9
-      - 鹏哥分享_10
-      - 鹏哥分享_11
-      - 鹏哥分享_12
-      - 鹏哥分享_13
-      - 鹏哥分享_14
-      - 鹏哥分享_15
-      - 鹏哥分享_16
-      - 鹏哥分享_17
-      - 鹏哥分享_18
-      - 鹏哥分享_19
-      - 鹏哥分享_20
-      - 鹏哥分享_21
-      - 鹏哥分享_22
-      - 鹏哥分享_23
-      - 鹏哥分享_24
-      - 鹏哥分享_25
-      - 鹏哥分享_26
-      - 鹏哥分享_27
-      - 鹏哥分享_28
-      - 鹏哥分享_29
-      - 鹏哥分享_30
-      - 鹏哥分享_31
-      - 鹏哥分享_32
-      - 鹏哥分享_33
-      - 鹏哥分享_34
-      - 鹏哥分享_35
-      - 鹏哥分享_36
-      - 鹏哥分享_37
-      - 鹏哥分享_38
-      - 鹏哥分享_39
-      - 鹏哥分享_40
-      - 鹏哥分享_41
-      - 鹏哥分享_42
-      - 鹏哥分享_43
-      - 鹏哥分享_44
-      - 鹏哥分享_45
-      - 鹏哥分享_46
-      - 鹏哥分享_47
-      - 鹏哥分享_48
-      - 鹏哥分享_49
-      - 鹏哥分享_50
-      - 鹏哥分享_51
-      - 鹏哥分享_52
-      - 鹏哥分享_53
-      - 鹏哥分享_54
-      - 鹏哥分享_55
-      - 鹏哥分享_56
-      - 鹏哥分享_57
-      - 鹏哥分享_58
-      - 鹏哥分享_59
-      - 鹏哥分享_60
-      - 鹏哥分享_61
-      - 鹏哥分享_62
-      - 鹏哥分享_63
-      - 鹏哥分享_64
-      - 鹏哥分享_65
-      - 鹏哥分享_66
-      - 鹏哥分享_67
-      - 鹏哥分享_68
-      - 鹏哥分享_69
-      - 鹏哥分享_70
-      - 鹏哥分享_71
-      - 鹏哥分享_72
-      - 鹏哥分享_73
-      - 鹏哥分享_74
-      - 鹏哥分享_75
-      - 鹏哥分享_76
-      - 鹏哥分享_77
-      - 鹏哥分享_78
-      - 鹏哥分享_79
-      - 鹏哥分享_80
-      - 鹏哥分享_81
-      - 鹏哥分享_82
-      - 鹏哥分享_83
-      - 鹏哥分享_84
-      - 鹏哥分享_85
-      - 鹏哥分享_86
-      - 鹏哥分享_87
-      - 鹏哥分享_88
-      - 鹏哥分享_89
-      - 鹏哥分享_90
-      - 鹏哥分享_91
-      - 鹏哥分享_92
-      - 鹏哥分享_93
-      - 鹏哥分享_94
-      - 鹏哥分享_95
-      - 鹏哥分享_96
-      - 鹏哥分享_97
-      - 鹏哥分享_98
-      - 鹏哥分享_99
-      - 鹏哥分享_100
-      - 鹏哥分享_101
-      - 鹏哥分享_102
-      - 鹏哥分享_103
-      - 鹏哥分享_104
-      - 鹏哥分享_105
-      - 鹏哥分享_106
-      - 鹏哥分享_107
-      - 鹏哥分享_108
-      - 鹏哥分享_109
-      - 鹏哥分享_110
-      - 鹏哥分享_111
-      - 鹏哥分享_112
-      - 鹏哥分享_113
-      - 鹏哥分享_114
-      - 鹏哥分享_115
-      - 鹏哥分享_116
-      - 鹏哥分享_117
-      - 鹏哥分享_118
-      - 鹏哥分享_119
-      - 鹏哥分享_120
-      - 鹏哥分享_121
-      - 鹏哥分享_122
-      - 鹏哥分享_123
-      - 鹏哥分享_124
-      - 鹏哥分享_125
-      - 鹏哥分享_126
-      - 鹏哥分享_127
-      - 鹏哥分享_128
-      - 鹏哥分享_129
-      - 鹏哥分享_130
-      - 鹏哥分享_131
-      - 鹏哥分享_132
-      - 鹏哥分享_133
-      - 鹏哥分享_134
-      - 鹏哥分享_135
-      - 鹏哥分享_136
-      - 鹏哥分享_137
-      - 鹏哥分享_138
-      - 鹏哥分享_139
-      - 鹏哥分享_140
-      - 鹏哥分享_141
-      - 鹏哥分享_142
-      - 鹏哥分享_143
-      - 鹏哥分享_144
-      - 鹏哥分享_145
-      - 鹏哥分享_146
-      - 鹏哥分享_147
-      - 鹏哥分享_148
-      - 鹏哥分享_149
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_9
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
+      - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
+      - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
+      - Ytb:鹏哥分享_34
+      - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
+      - Ytb:鹏哥分享_48
+      - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
+      - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
+      - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
+      - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
+      - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
+      - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
+      - Ytb:鹏哥分享_87
+      - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
+      - Ytb:鹏哥分享_92
+      - Ytb:鹏哥分享_93
+      - Ytb:鹏哥分享_94
+      - Ytb:鹏哥分享_95
+      - Ytb:鹏哥分享_96
+      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_98
+      - Ytb:鹏哥分享_99
+      - Ytb:鹏哥分享_100
+      - Ytb:鹏哥分享_101
+      - Ytb:鹏哥分享_102
+      - Ytb:鹏哥分享_103
+      - Ytb:鹏哥分享_104
+      - Ytb:鹏哥分享_105
+      - Ytb:鹏哥分享_106
+      - Ytb:鹏哥分享_107
+      - Ytb:鹏哥分享_108
+      - Ytb:鹏哥分享_109
+      - Ytb:鹏哥分享_110
+      - Ytb:鹏哥分享_111
+      - Ytb:鹏哥分享_112
+      - Ytb:鹏哥分享_113
+      - Ytb:鹏哥分享_114
+      - Ytb:鹏哥分享_115
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 鹏哥分享_1
-      - 鹏哥分享_2
-      - 鹏哥分享_3
-      - 鹏哥分享_4
-      - 鹏哥分享_5
-      - 鹏哥分享_6
-      - 鹏哥分享_7
-      - 鹏哥分享_8
-      - 鹏哥分享_9
-      - 鹏哥分享_10
-      - 鹏哥分享_11
-      - 鹏哥分享_12
-      - 鹏哥分享_13
-      - 鹏哥分享_14
-      - 鹏哥分享_15
-      - 鹏哥分享_16
-      - 鹏哥分享_17
-      - 鹏哥分享_18
-      - 鹏哥分享_19
-      - 鹏哥分享_20
-      - 鹏哥分享_21
-      - 鹏哥分享_22
-      - 鹏哥分享_23
-      - 鹏哥分享_24
-      - 鹏哥分享_25
-      - 鹏哥分享_26
-      - 鹏哥分享_27
-      - 鹏哥分享_28
-      - 鹏哥分享_29
-      - 鹏哥分享_30
-      - 鹏哥分享_31
-      - 鹏哥分享_32
-      - 鹏哥分享_33
-      - 鹏哥分享_34
-      - 鹏哥分享_35
-      - 鹏哥分享_36
-      - 鹏哥分享_37
-      - 鹏哥分享_38
-      - 鹏哥分享_39
-      - 鹏哥分享_40
-      - 鹏哥分享_41
-      - 鹏哥分享_42
-      - 鹏哥分享_43
-      - 鹏哥分享_44
-      - 鹏哥分享_45
-      - 鹏哥分享_46
-      - 鹏哥分享_47
-      - 鹏哥分享_48
-      - 鹏哥分享_49
-      - 鹏哥分享_50
-      - 鹏哥分享_51
-      - 鹏哥分享_52
-      - 鹏哥分享_53
-      - 鹏哥分享_54
-      - 鹏哥分享_55
-      - 鹏哥分享_56
-      - 鹏哥分享_57
-      - 鹏哥分享_58
-      - 鹏哥分享_59
-      - 鹏哥分享_60
-      - 鹏哥分享_61
-      - 鹏哥分享_62
-      - 鹏哥分享_63
-      - 鹏哥分享_64
-      - 鹏哥分享_65
-      - 鹏哥分享_66
-      - 鹏哥分享_67
-      - 鹏哥分享_68
-      - 鹏哥分享_69
-      - 鹏哥分享_70
-      - 鹏哥分享_71
-      - 鹏哥分享_72
-      - 鹏哥分享_73
-      - 鹏哥分享_74
-      - 鹏哥分享_75
-      - 鹏哥分享_76
-      - 鹏哥分享_77
-      - 鹏哥分享_78
-      - 鹏哥分享_79
-      - 鹏哥分享_80
-      - 鹏哥分享_81
-      - 鹏哥分享_82
-      - 鹏哥分享_83
-      - 鹏哥分享_84
-      - 鹏哥分享_85
-      - 鹏哥分享_86
-      - 鹏哥分享_87
-      - 鹏哥分享_88
-      - 鹏哥分享_89
-      - 鹏哥分享_90
-      - 鹏哥分享_91
-      - 鹏哥分享_92
-      - 鹏哥分享_93
-      - 鹏哥分享_94
-      - 鹏哥分享_95
-      - 鹏哥分享_96
-      - 鹏哥分享_97
-      - 鹏哥分享_98
-      - 鹏哥分享_99
-      - 鹏哥分享_100
-      - 鹏哥分享_101
-      - 鹏哥分享_102
-      - 鹏哥分享_103
-      - 鹏哥分享_104
-      - 鹏哥分享_105
-      - 鹏哥分享_106
-      - 鹏哥分享_107
-      - 鹏哥分享_108
-      - 鹏哥分享_109
-      - 鹏哥分享_110
-      - 鹏哥分享_111
-      - 鹏哥分享_112
-      - 鹏哥分享_113
-      - 鹏哥分享_114
-      - 鹏哥分享_115
-      - 鹏哥分享_116
-      - 鹏哥分享_117
-      - 鹏哥分享_118
-      - 鹏哥分享_119
-      - 鹏哥分享_120
-      - 鹏哥分享_121
-      - 鹏哥分享_122
-      - 鹏哥分享_123
-      - 鹏哥分享_124
-      - 鹏哥分享_125
-      - 鹏哥分享_126
-      - 鹏哥分享_127
-      - 鹏哥分享_128
-      - 鹏哥分享_129
-      - 鹏哥分享_130
-      - 鹏哥分享_131
-      - 鹏哥分享_132
-      - 鹏哥分享_133
-      - 鹏哥分享_134
-      - 鹏哥分享_135
-      - 鹏哥分享_136
-      - 鹏哥分享_137
-      - 鹏哥分享_138
-      - 鹏哥分享_139
-      - 鹏哥分享_140
-      - 鹏哥分享_141
-      - 鹏哥分享_142
-      - 鹏哥分享_143
-      - 鹏哥分享_144
-      - 鹏哥分享_145
-      - 鹏哥分享_146
-      - 鹏哥分享_147
-      - 鹏哥分享_148
-      - 鹏哥分享_149
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_9
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
+      - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
+      - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
+      - Ytb:鹏哥分享_34
+      - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
+      - Ytb:鹏哥分享_48
+      - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
+      - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
+      - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
+      - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
+      - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
+      - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
+      - Ytb:鹏哥分享_87
+      - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
+      - Ytb:鹏哥分享_92
+      - Ytb:鹏哥分享_93
+      - Ytb:鹏哥分享_94
+      - Ytb:鹏哥分享_95
+      - Ytb:鹏哥分享_96
+      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_98
+      - Ytb:鹏哥分享_99
+      - Ytb:鹏哥分享_100
+      - Ytb:鹏哥分享_101
+      - Ytb:鹏哥分享_102
+      - Ytb:鹏哥分享_103
+      - Ytb:鹏哥分享_104
+      - Ytb:鹏哥分享_105
+      - Ytb:鹏哥分享_106
+      - Ytb:鹏哥分享_107
+      - Ytb:鹏哥分享_108
+      - Ytb:鹏哥分享_109
+      - Ytb:鹏哥分享_110
+      - Ytb:鹏哥分享_111
+      - Ytb:鹏哥分享_112
+      - Ytb:鹏哥分享_113
+      - Ytb:鹏哥分享_114
+      - Ytb:鹏哥分享_115
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 鹏哥分享_1
-      - 鹏哥分享_2
-      - 鹏哥分享_3
-      - 鹏哥分享_4
-      - 鹏哥分享_5
-      - 鹏哥分享_6
-      - 鹏哥分享_7
-      - 鹏哥分享_8
-      - 鹏哥分享_9
-      - 鹏哥分享_10
-      - 鹏哥分享_11
-      - 鹏哥分享_12
-      - 鹏哥分享_13
-      - 鹏哥分享_14
-      - 鹏哥分享_15
-      - 鹏哥分享_16
-      - 鹏哥分享_17
-      - 鹏哥分享_18
-      - 鹏哥分享_19
-      - 鹏哥分享_20
-      - 鹏哥分享_21
-      - 鹏哥分享_22
-      - 鹏哥分享_23
-      - 鹏哥分享_24
-      - 鹏哥分享_25
-      - 鹏哥分享_26
-      - 鹏哥分享_27
-      - 鹏哥分享_28
-      - 鹏哥分享_29
-      - 鹏哥分享_30
-      - 鹏哥分享_31
-      - 鹏哥分享_32
-      - 鹏哥分享_33
-      - 鹏哥分享_34
-      - 鹏哥分享_35
-      - 鹏哥分享_36
-      - 鹏哥分享_37
-      - 鹏哥分享_38
-      - 鹏哥分享_39
-      - 鹏哥分享_40
-      - 鹏哥分享_41
-      - 鹏哥分享_42
-      - 鹏哥分享_43
-      - 鹏哥分享_44
-      - 鹏哥分享_45
-      - 鹏哥分享_46
-      - 鹏哥分享_47
-      - 鹏哥分享_48
-      - 鹏哥分享_49
-      - 鹏哥分享_50
-      - 鹏哥分享_51
-      - 鹏哥分享_52
-      - 鹏哥分享_53
-      - 鹏哥分享_54
-      - 鹏哥分享_55
-      - 鹏哥分享_56
-      - 鹏哥分享_57
-      - 鹏哥分享_58
-      - 鹏哥分享_59
-      - 鹏哥分享_60
-      - 鹏哥分享_61
-      - 鹏哥分享_62
-      - 鹏哥分享_63
-      - 鹏哥分享_64
-      - 鹏哥分享_65
-      - 鹏哥分享_66
-      - 鹏哥分享_67
-      - 鹏哥分享_68
-      - 鹏哥分享_69
-      - 鹏哥分享_70
-      - 鹏哥分享_71
-      - 鹏哥分享_72
-      - 鹏哥分享_73
-      - 鹏哥分享_74
-      - 鹏哥分享_75
-      - 鹏哥分享_76
-      - 鹏哥分享_77
-      - 鹏哥分享_78
-      - 鹏哥分享_79
-      - 鹏哥分享_80
-      - 鹏哥分享_81
-      - 鹏哥分享_82
-      - 鹏哥分享_83
-      - 鹏哥分享_84
-      - 鹏哥分享_85
-      - 鹏哥分享_86
-      - 鹏哥分享_87
-      - 鹏哥分享_88
-      - 鹏哥分享_89
-      - 鹏哥分享_90
-      - 鹏哥分享_91
-      - 鹏哥分享_92
-      - 鹏哥分享_93
-      - 鹏哥分享_94
-      - 鹏哥分享_95
-      - 鹏哥分享_96
-      - 鹏哥分享_97
-      - 鹏哥分享_98
-      - 鹏哥分享_99
-      - 鹏哥分享_100
-      - 鹏哥分享_101
-      - 鹏哥分享_102
-      - 鹏哥分享_103
-      - 鹏哥分享_104
-      - 鹏哥分享_105
-      - 鹏哥分享_106
-      - 鹏哥分享_107
-      - 鹏哥分享_108
-      - 鹏哥分享_109
-      - 鹏哥分享_110
-      - 鹏哥分享_111
-      - 鹏哥分享_112
-      - 鹏哥分享_113
-      - 鹏哥分享_114
-      - 鹏哥分享_115
-      - 鹏哥分享_116
-      - 鹏哥分享_117
-      - 鹏哥分享_118
-      - 鹏哥分享_119
-      - 鹏哥分享_120
-      - 鹏哥分享_121
-      - 鹏哥分享_122
-      - 鹏哥分享_123
-      - 鹏哥分享_124
-      - 鹏哥分享_125
-      - 鹏哥分享_126
-      - 鹏哥分享_127
-      - 鹏哥分享_128
-      - 鹏哥分享_129
-      - 鹏哥分享_130
-      - 鹏哥分享_131
-      - 鹏哥分享_132
-      - 鹏哥分享_133
-      - 鹏哥分享_134
-      - 鹏哥分享_135
-      - 鹏哥分享_136
-      - 鹏哥分享_137
-      - 鹏哥分享_138
-      - 鹏哥分享_139
-      - 鹏哥分享_140
-      - 鹏哥分享_141
-      - 鹏哥分享_142
-      - 鹏哥分享_143
-      - 鹏哥分享_144
-      - 鹏哥分享_145
-      - 鹏哥分享_146
-      - 鹏哥分享_147
-      - 鹏哥分享_148
-      - 鹏哥分享_149
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_9
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
+      - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
+      - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
+      - Ytb:鹏哥分享_34
+      - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
+      - Ytb:鹏哥分享_48
+      - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
+      - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
+      - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
+      - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
+      - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
+      - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
+      - Ytb:鹏哥分享_87
+      - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
+      - Ytb:鹏哥分享_92
+      - Ytb:鹏哥分享_93
+      - Ytb:鹏哥分享_94
+      - Ytb:鹏哥分享_95
+      - Ytb:鹏哥分享_96
+      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_98
+      - Ytb:鹏哥分享_99
+      - Ytb:鹏哥分享_100
+      - Ytb:鹏哥分享_101
+      - Ytb:鹏哥分享_102
+      - Ytb:鹏哥分享_103
+      - Ytb:鹏哥分享_104
+      - Ytb:鹏哥分享_105
+      - Ytb:鹏哥分享_106
+      - Ytb:鹏哥分享_107
+      - Ytb:鹏哥分享_108
+      - Ytb:鹏哥分享_109
+      - Ytb:鹏哥分享_110
+      - Ytb:鹏哥分享_111
+      - Ytb:鹏哥分享_112
+      - Ytb:鹏哥分享_113
+      - Ytb:鹏哥分享_114
+      - Ytb:鹏哥分享_115
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 鹏哥分享_1
-      - 鹏哥分享_2
-      - 鹏哥分享_3
-      - 鹏哥分享_4
-      - 鹏哥分享_5
-      - 鹏哥分享_6
-      - 鹏哥分享_7
-      - 鹏哥分享_8
-      - 鹏哥分享_9
-      - 鹏哥分享_10
-      - 鹏哥分享_11
-      - 鹏哥分享_12
-      - 鹏哥分享_13
-      - 鹏哥分享_14
-      - 鹏哥分享_15
-      - 鹏哥分享_16
-      - 鹏哥分享_17
-      - 鹏哥分享_18
-      - 鹏哥分享_19
-      - 鹏哥分享_20
-      - 鹏哥分享_21
-      - 鹏哥分享_22
-      - 鹏哥分享_23
-      - 鹏哥分享_24
-      - 鹏哥分享_25
-      - 鹏哥分享_26
-      - 鹏哥分享_27
-      - 鹏哥分享_28
-      - 鹏哥分享_29
-      - 鹏哥分享_30
-      - 鹏哥分享_31
-      - 鹏哥分享_32
-      - 鹏哥分享_33
-      - 鹏哥分享_34
-      - 鹏哥分享_35
-      - 鹏哥分享_36
-      - 鹏哥分享_37
-      - 鹏哥分享_38
-      - 鹏哥分享_39
-      - 鹏哥分享_40
-      - 鹏哥分享_41
-      - 鹏哥分享_42
-      - 鹏哥分享_43
-      - 鹏哥分享_44
-      - 鹏哥分享_45
-      - 鹏哥分享_46
-      - 鹏哥分享_47
-      - 鹏哥分享_48
-      - 鹏哥分享_49
-      - 鹏哥分享_50
-      - 鹏哥分享_51
-      - 鹏哥分享_52
-      - 鹏哥分享_53
-      - 鹏哥分享_54
-      - 鹏哥分享_55
-      - 鹏哥分享_56
-      - 鹏哥分享_57
-      - 鹏哥分享_58
-      - 鹏哥分享_59
-      - 鹏哥分享_60
-      - 鹏哥分享_61
-      - 鹏哥分享_62
-      - 鹏哥分享_63
-      - 鹏哥分享_64
-      - 鹏哥分享_65
-      - 鹏哥分享_66
-      - 鹏哥分享_67
-      - 鹏哥分享_68
-      - 鹏哥分享_69
-      - 鹏哥分享_70
-      - 鹏哥分享_71
-      - 鹏哥分享_72
-      - 鹏哥分享_73
-      - 鹏哥分享_74
-      - 鹏哥分享_75
-      - 鹏哥分享_76
-      - 鹏哥分享_77
-      - 鹏哥分享_78
-      - 鹏哥分享_79
-      - 鹏哥分享_80
-      - 鹏哥分享_81
-      - 鹏哥分享_82
-      - 鹏哥分享_83
-      - 鹏哥分享_84
-      - 鹏哥分享_85
-      - 鹏哥分享_86
-      - 鹏哥分享_87
-      - 鹏哥分享_88
-      - 鹏哥分享_89
-      - 鹏哥分享_90
-      - 鹏哥分享_91
-      - 鹏哥分享_92
-      - 鹏哥分享_93
-      - 鹏哥分享_94
-      - 鹏哥分享_95
-      - 鹏哥分享_96
-      - 鹏哥分享_97
-      - 鹏哥分享_98
-      - 鹏哥分享_99
-      - 鹏哥分享_100
-      - 鹏哥分享_101
-      - 鹏哥分享_102
-      - 鹏哥分享_103
-      - 鹏哥分享_104
-      - 鹏哥分享_105
-      - 鹏哥分享_106
-      - 鹏哥分享_107
-      - 鹏哥分享_108
-      - 鹏哥分享_109
-      - 鹏哥分享_110
-      - 鹏哥分享_111
-      - 鹏哥分享_112
-      - 鹏哥分享_113
-      - 鹏哥分享_114
-      - 鹏哥分享_115
-      - 鹏哥分享_116
-      - 鹏哥分享_117
-      - 鹏哥分享_118
-      - 鹏哥分享_119
-      - 鹏哥分享_120
-      - 鹏哥分享_121
-      - 鹏哥分享_122
-      - 鹏哥分享_123
-      - 鹏哥分享_124
-      - 鹏哥分享_125
-      - 鹏哥分享_126
-      - 鹏哥分享_127
-      - 鹏哥分享_128
-      - 鹏哥分享_129
-      - 鹏哥分享_130
-      - 鹏哥分享_131
-      - 鹏哥分享_132
-      - 鹏哥分享_133
-      - 鹏哥分享_134
-      - 鹏哥分享_135
-      - 鹏哥分享_136
-      - 鹏哥分享_137
-      - 鹏哥分享_138
-      - 鹏哥分享_139
-      - 鹏哥分享_140
-      - 鹏哥分享_141
-      - 鹏哥分享_142
-      - 鹏哥分享_143
-      - 鹏哥分享_144
-      - 鹏哥分享_145
-      - 鹏哥分享_146
-      - 鹏哥分享_147
-      - 鹏哥分享_148
-      - 鹏哥分享_149
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_9
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
+      - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
+      - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
+      - Ytb:鹏哥分享_34
+      - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
+      - Ytb:鹏哥分享_48
+      - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
+      - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
+      - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
+      - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
+      - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
+      - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
+      - Ytb:鹏哥分享_87
+      - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
+      - Ytb:鹏哥分享_92
+      - Ytb:鹏哥分享_93
+      - Ytb:鹏哥分享_94
+      - Ytb:鹏哥分享_95
+      - Ytb:鹏哥分享_96
+      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_98
+      - Ytb:鹏哥分享_99
+      - Ytb:鹏哥分享_100
+      - Ytb:鹏哥分享_101
+      - Ytb:鹏哥分享_102
+      - Ytb:鹏哥分享_103
+      - Ytb:鹏哥分享_104
+      - Ytb:鹏哥分享_105
+      - Ytb:鹏哥分享_106
+      - Ytb:鹏哥分享_107
+      - Ytb:鹏哥分享_108
+      - Ytb:鹏哥分享_109
+      - Ytb:鹏哥分享_110
+      - Ytb:鹏哥分享_111
+      - Ytb:鹏哥分享_112
+      - Ytb:鹏哥分享_113
+      - Ytb:鹏哥分享_114
+      - Ytb:鹏哥分享_115
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1250,155 +978,121 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 鹏哥分享_1
-      - 鹏哥分享_2
-      - 鹏哥分享_3
-      - 鹏哥分享_4
-      - 鹏哥分享_5
-      - 鹏哥分享_6
-      - 鹏哥分享_7
-      - 鹏哥分享_8
-      - 鹏哥分享_9
-      - 鹏哥分享_10
-      - 鹏哥分享_11
-      - 鹏哥分享_12
-      - 鹏哥分享_13
-      - 鹏哥分享_14
-      - 鹏哥分享_15
-      - 鹏哥分享_16
-      - 鹏哥分享_17
-      - 鹏哥分享_18
-      - 鹏哥分享_19
-      - 鹏哥分享_20
-      - 鹏哥分享_21
-      - 鹏哥分享_22
-      - 鹏哥分享_23
-      - 鹏哥分享_24
-      - 鹏哥分享_25
-      - 鹏哥分享_26
-      - 鹏哥分享_27
-      - 鹏哥分享_28
-      - 鹏哥分享_29
-      - 鹏哥分享_30
-      - 鹏哥分享_31
-      - 鹏哥分享_32
-      - 鹏哥分享_33
-      - 鹏哥分享_34
-      - 鹏哥分享_35
-      - 鹏哥分享_36
-      - 鹏哥分享_37
-      - 鹏哥分享_38
-      - 鹏哥分享_39
-      - 鹏哥分享_40
-      - 鹏哥分享_41
-      - 鹏哥分享_42
-      - 鹏哥分享_43
-      - 鹏哥分享_44
-      - 鹏哥分享_45
-      - 鹏哥分享_46
-      - 鹏哥分享_47
-      - 鹏哥分享_48
-      - 鹏哥分享_49
-      - 鹏哥分享_50
-      - 鹏哥分享_51
-      - 鹏哥分享_52
-      - 鹏哥分享_53
-      - 鹏哥分享_54
-      - 鹏哥分享_55
-      - 鹏哥分享_56
-      - 鹏哥分享_57
-      - 鹏哥分享_58
-      - 鹏哥分享_59
-      - 鹏哥分享_60
-      - 鹏哥分享_61
-      - 鹏哥分享_62
-      - 鹏哥分享_63
-      - 鹏哥分享_64
-      - 鹏哥分享_65
-      - 鹏哥分享_66
-      - 鹏哥分享_67
-      - 鹏哥分享_68
-      - 鹏哥分享_69
-      - 鹏哥分享_70
-      - 鹏哥分享_71
-      - 鹏哥分享_72
-      - 鹏哥分享_73
-      - 鹏哥分享_74
-      - 鹏哥分享_75
-      - 鹏哥分享_76
-      - 鹏哥分享_77
-      - 鹏哥分享_78
-      - 鹏哥分享_79
-      - 鹏哥分享_80
-      - 鹏哥分享_81
-      - 鹏哥分享_82
-      - 鹏哥分享_83
-      - 鹏哥分享_84
-      - 鹏哥分享_85
-      - 鹏哥分享_86
-      - 鹏哥分享_87
-      - 鹏哥分享_88
-      - 鹏哥分享_89
-      - 鹏哥分享_90
-      - 鹏哥分享_91
-      - 鹏哥分享_92
-      - 鹏哥分享_93
-      - 鹏哥分享_94
-      - 鹏哥分享_95
-      - 鹏哥分享_96
-      - 鹏哥分享_97
-      - 鹏哥分享_98
-      - 鹏哥分享_99
-      - 鹏哥分享_100
-      - 鹏哥分享_101
-      - 鹏哥分享_102
-      - 鹏哥分享_103
-      - 鹏哥分享_104
-      - 鹏哥分享_105
-      - 鹏哥分享_106
-      - 鹏哥分享_107
-      - 鹏哥分享_108
-      - 鹏哥分享_109
-      - 鹏哥分享_110
-      - 鹏哥分享_111
-      - 鹏哥分享_112
-      - 鹏哥分享_113
-      - 鹏哥分享_114
-      - 鹏哥分享_115
-      - 鹏哥分享_116
-      - 鹏哥分享_117
-      - 鹏哥分享_118
-      - 鹏哥分享_119
-      - 鹏哥分享_120
-      - 鹏哥分享_121
-      - 鹏哥分享_122
-      - 鹏哥分享_123
-      - 鹏哥分享_124
-      - 鹏哥分享_125
-      - 鹏哥分享_126
-      - 鹏哥分享_127
-      - 鹏哥分享_128
-      - 鹏哥分享_129
-      - 鹏哥分享_130
-      - 鹏哥分享_131
-      - 鹏哥分享_132
-      - 鹏哥分享_133
-      - 鹏哥分享_134
-      - 鹏哥分享_135
-      - 鹏哥分享_136
-      - 鹏哥分享_137
-      - 鹏哥分享_138
-      - 鹏哥分享_139
-      - 鹏哥分享_140
-      - 鹏哥分享_141
-      - 鹏哥分享_142
-      - 鹏哥分享_143
-      - 鹏哥分享_144
-      - 鹏哥分享_145
-      - 鹏哥分享_146
-      - 鹏哥分享_147
-      - 鹏哥分享_148
-      - 鹏哥分享_149
+      - Ytb:鹏哥分享_1
+      - Ytb:鹏哥分享_2
+      - Ytb:鹏哥分享_3
+      - Ytb:鹏哥分享_4
+      - Ytb:鹏哥分享_5
+      - Ytb:鹏哥分享_6
+      - Ytb:鹏哥分享_7
+      - Ytb:鹏哥分享_8
+      - Ytb:鹏哥分享_9
+      - Ytb:鹏哥分享_10
+      - Ytb:鹏哥分享_11
+      - Ytb:鹏哥分享_12
+      - Ytb:鹏哥分享_13
+      - Ytb:鹏哥分享_14
+      - Ytb:鹏哥分享_15
+      - Ytb:鹏哥分享_16
+      - Ytb:鹏哥分享_17
+      - Ytb:鹏哥分享_18
+      - Ytb:鹏哥分享_19
+      - Ytb:鹏哥分享_20
+      - Ytb:鹏哥分享_21
+      - Ytb:鹏哥分享_22
+      - Ytb:鹏哥分享_23
+      - Ytb:鹏哥分享_24
+      - Ytb:鹏哥分享_25
+      - Ytb:鹏哥分享_26
+      - Ytb:鹏哥分享_27
+      - Ytb:鹏哥分享_28
+      - Ytb:鹏哥分享_29
+      - Ytb:鹏哥分享_30
+      - Ytb:鹏哥分享_31
+      - Ytb:鹏哥分享_32
+      - Ytb:鹏哥分享_33
+      - Ytb:鹏哥分享_34
+      - Ytb:鹏哥分享_35
+      - Ytb:鹏哥分享_36
+      - Ytb:鹏哥分享_37
+      - Ytb:鹏哥分享_38
+      - Ytb:鹏哥分享_39
+      - Ytb:鹏哥分享_40
+      - Ytb:鹏哥分享_41
+      - Ytb:鹏哥分享_42
+      - Ytb:鹏哥分享_43
+      - Ytb:鹏哥分享_44
+      - Ytb:鹏哥分享_45
+      - Ytb:鹏哥分享_46
+      - Ytb:鹏哥分享_47
+      - Ytb:鹏哥分享_48
+      - Ytb:鹏哥分享_49
+      - Ytb:鹏哥分享_50
+      - Ytb:鹏哥分享_51
+      - Ytb:鹏哥分享_52
+      - Ytb:鹏哥分享_53
+      - Ytb:鹏哥分享_54
+      - Ytb:鹏哥分享_55
+      - Ytb:鹏哥分享_56
+      - Ytb:鹏哥分享_57
+      - Ytb:鹏哥分享_58
+      - Ytb:鹏哥分享_59
+      - Ytb:鹏哥分享_60
+      - Ytb:鹏哥分享_61
+      - Ytb:鹏哥分享_62
+      - Ytb:鹏哥分享_63
+      - Ytb:鹏哥分享_64
+      - Ytb:鹏哥分享_65
+      - Ytb:鹏哥分享_66
+      - Ytb:鹏哥分享_67
+      - Ytb:鹏哥分享_68
+      - Ytb:鹏哥分享_69
+      - Ytb:鹏哥分享_70
+      - Ytb:鹏哥分享_71
+      - Ytb:鹏哥分享_72
+      - Ytb:鹏哥分享_73
+      - Ytb:鹏哥分享_74
+      - Ytb:鹏哥分享_75
+      - Ytb:鹏哥分享_76
+      - Ytb:鹏哥分享_77
+      - Ytb:鹏哥分享_78
+      - Ytb:鹏哥分享_79
+      - Ytb:鹏哥分享_80
+      - Ytb:鹏哥分享_81
+      - Ytb:鹏哥分享_82
+      - Ytb:鹏哥分享_83
+      - Ytb:鹏哥分享_84
+      - Ytb:鹏哥分享_85
+      - Ytb:鹏哥分享_86
+      - Ytb:鹏哥分享_87
+      - Ytb:鹏哥分享_88
+      - Ytb:鹏哥分享_89
+      - Ytb:鹏哥分享_90
+      - Ytb:鹏哥分享_91
+      - Ytb:鹏哥分享_92
+      - Ytb:鹏哥分享_93
+      - Ytb:鹏哥分享_94
+      - Ytb:鹏哥分享_95
+      - Ytb:鹏哥分享_96
+      - Ytb:鹏哥分享_97
+      - Ytb:鹏哥分享_98
+      - Ytb:鹏哥分享_99
+      - Ytb:鹏哥分享_100
+      - Ytb:鹏哥分享_101
+      - Ytb:鹏哥分享_102
+      - Ytb:鹏哥分享_103
+      - Ytb:鹏哥分享_104
+      - Ytb:鹏哥分享_105
+      - Ytb:鹏哥分享_106
+      - Ytb:鹏哥分享_107
+      - Ytb:鹏哥分享_108
+      - Ytb:鹏哥分享_109
+      - Ytb:鹏哥分享_110
+      - Ytb:鹏哥分享_111
+      - Ytb:鹏哥分享_112
+      - Ytb:鹏哥分享_113
+      - Ytb:鹏哥分享_114
+      - Ytb:鹏哥分享_115
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
