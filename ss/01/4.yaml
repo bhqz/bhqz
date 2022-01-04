@@ -5,700 +5,516 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Ytb:鹏哥分享_HK_香港_1', server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/clientarea", host: 103.138.75.235 }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_2', server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: sg-sin-krn-v2.node.inforun.work }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_3', server: sh-hk-hgc-1g-v2.node.inforun.work, port: 20288, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: sh-hk-hgc-1g-v2.node.inforun.work }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_4', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: shcn2-06b.iplc188.com }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_5', server: 120.232.173.154, port: 30004, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/", host: 120.232.173.154 }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_6', server: us-sea-sh-us-02-v2.node.inforun.work, port: 22088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: us-sea-sh-us-02-v2.node.inforun.work }}
-  - {name: 'Ytb:鹏哥分享_TW_台湾_7', server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: tw-tpe-hq-v2.node.inforun.work }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_8', server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: jp-nrt-04-v2.cdn.savoy.click }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_9', server: sh-hk-hgc-100m-v2.cdn.savoy.click, port: 20188, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: sh-hk-hgc-100m-v2.cdn.savoy.click }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_10', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: shcn2-06b.iplc188.com }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_11', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ws", host: usa-buffalo.lvuft.com }}
-  - {name: 'Ytb:鹏哥分享_DE_德国_12', server: de-nue-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: de-nue-v2.cdn.savoy.click }}
-  - {name: 'Ytb:鹏哥分享_CN_中国_13', server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: shcn2-06b.iplc188.com }}
-  - {name: 'Ytb:鹏哥分享_US_美国_14', server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_15', server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_16', server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_GB_英国_17', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_US_美国_18', server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_GB_英国_19', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_US_美国_20', server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Ytb:鹏哥分享_US_美国_21', server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_US_美国_22', server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_23', server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_24', server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_GB_英国_25', server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_HK_香港_26', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_27', server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_HK_香港_28', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_29', server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_US_美国_30', server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_HK_香港_31', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:鹏哥分享_HK_香港_32', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_33', server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_GB_英国_34', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_AE_阿联酋_35', server: 217.138.193.6, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Ytb:鹏哥分享_US_美国_36', server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_HK_香港_37', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_ID_印度尼西亚_38', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: 'Ytb:鹏哥分享_US_美国_39', server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_HK_香港_40', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_41', server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_42', server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_43', server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Ytb:鹏哥分享_HK_香港_44', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_IL_以色列_45', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: 'Ytb:鹏哥分享_US_美国_46', server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_47', server: 38.114.114.67, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_48', server: 38.114.114.67, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_US_美国_49', server: 38.114.114.67, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_US_美国_50', server: 38.114.114.67, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_FR_法国_51', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'Ytb:鹏哥分享_US_美国_52', server: 169.197.142.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_HK_香港_53', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_US_美国_54', server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Ytb:鹏哥分享_US_美国_55', server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_56', server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_57', server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_TW_台湾_58', server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
-  - {name: 'Ytb:鹏哥分享_US_美国_59', server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_US_美国_60', server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_61', server: 134.195.196.217, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_62', server: 134.195.196.101, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_63', server: 134.195.196.217, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_64', server: 134.195.196.217, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_65', server: 38.114.114.67, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_66', server: 134.195.196.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Ytb:鹏哥分享_US_美国_67', server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_US_美国_68', server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_69', server: 134.195.196.217, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_70', server: 134.195.196.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_71', server: 134.195.196.217, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_72', server: 134.195.196.217, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_73', server: 134.195.196.101, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_74', server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_75', server: 134.195.196.217, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 'Ytb:鹏哥分享_CA_加拿大_76', server: 134.195.196.217, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_US_美国_77', server: 169.197.142.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'Ytb:鹏哥分享_US_美国_78', server: 38.114.114.67, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Ytb:鹏哥分享_US_美国_79', server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 'Ytb:鹏哥分享_US_美国_80', server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Ytb:鹏哥分享_CN_中国_81', server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: SfobRIcergHchqBFzzua}
-  - {name: 'Ytb:鹏哥分享_CN_中国_82', server: tw-tpe-h-tr.cdn.savoy.click, port: 989, type: trojan, password: SfobRIcergHchqBFzzua}
+  - {name: 'Ytb:鹏哥分享_GB_英国_1', server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:鹏哥分享_DE_德国_2', server: de-nue-v2.cdn.savoy.click, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: de-nue-v2.cdn.savoy.click }}
+  - {name: 'Ytb:鹏哥分享_US_美国_3', server: 38.114.114.67, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_US_美国_4', server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_CN_中国_5', server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: shcn2-06b.iplc188.com }}
+  - {name: 'Ytb:鹏哥分享_US_美国_6', server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_US_美国_7', server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_US_美国_8', server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:鹏哥分享_US_美国_9', server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:鹏哥分享_US_美国_10', server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_11', server: 134.195.196.217, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_12', server: 134.195.196.101, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_13', server: 134.195.196.101, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_14', server: 134.195.196.217, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_15', server: 134.195.196.217, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_16', server: 134.195.196.217, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_17', server: 134.195.196.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_18', server: 134.195.196.217, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_GB_英国_19', server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_20', server: 134.195.196.217, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_21', server: 134.195.196.217, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:鹏哥分享_US_美国_22', server: 38.114.114.67, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_US_美国_23', server: 38.114.114.67, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:鹏哥分享_GB_英国_24', server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_US_美国_25', server: 38.114.114.67, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_26', server: 134.195.196.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_27', server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:鹏哥分享_US_美国_28', server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_CA_加拿大_29', server: 134.195.196.217, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Ytb:鹏哥分享_US_美国_30', server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_US_美国_31', server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:鹏哥分享_US_美国_32', server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_US_美国_33', server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Ytb:鹏哥分享_US_美国_34', server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:鹏哥分享_US_美国_35', server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_US_美国_36', server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:鹏哥分享_US_美国_37', server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Ytb:鹏哥分享_US_美国_38', server: 38.114.114.67, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_HK_香港_39', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Ytb:鹏哥分享_US_美国_40', server: 38.114.114.67, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_GB_英国_41', server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_US_美国_42', server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 'Ytb:鹏哥分享_US_美国_43', server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:鹏哥分享_CN_中国_44', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/je5x3pBN1vez3NQudNkB", host: shcn2-06b.iplc188.com }}
+  - {name: 'Ytb:鹏哥分享_US_美国_45', server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 'Ytb:鹏哥分享_AE_阿联酋_46', server: 217.138.193.6, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Ytb:鹏哥分享_US_美国_47', server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:鹏哥分享_US_美国_48', server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Ytb:鹏哥分享_US_美国_49', server: 169.197.142.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_US_美国_50', server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Ytb:鹏哥分享_IL_以色列_51', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: 'Ytb:鹏哥分享_HK_香港_52', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_HK_香港_53', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Ytb:鹏哥分享_HK_香港_54', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'Ytb:鹏哥分享_HK_香港_55', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Ytb:鹏哥分享_HK_香港_56', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Ytb:鹏哥分享_US_美国_57', server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 'Ytb:鹏哥分享_US_美国_58', server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Ytb:鹏哥分享_HK_香港_59', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Ytb:鹏哥分享_HK_香港_1
-      - Ytb:鹏哥分享_CN_中国_2
-      - Ytb:鹏哥分享_CN_中国_3
-      - Ytb:鹏哥分享_CN_中国_4
+      - Ytb:鹏哥分享_GB_英国_1
+      - Ytb:鹏哥分享_DE_德国_2
+      - Ytb:鹏哥分享_US_美国_3
+      - Ytb:鹏哥分享_US_美国_4
       - Ytb:鹏哥分享_CN_中国_5
-      - Ytb:鹏哥分享_CN_中国_6
-      - Ytb:鹏哥分享_TW_台湾_7
-      - Ytb:鹏哥分享_CN_中国_8
-      - Ytb:鹏哥分享_CN_中国_9
-      - Ytb:鹏哥分享_CN_中国_10
-      - Ytb:鹏哥分享_CN_中国_11
-      - Ytb:鹏哥分享_DE_德国_12
-      - Ytb:鹏哥分享_CN_中国_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18
+      - Ytb:鹏哥分享_US_美国_6
+      - Ytb:鹏哥分享_US_美国_7
+      - Ytb:鹏哥分享_US_美国_8
+      - Ytb:鹏哥分享_US_美国_9
+      - Ytb:鹏哥分享_US_美国_10
+      - Ytb:鹏哥分享_CA_加拿大_11
+      - Ytb:鹏哥分享_CA_加拿大_12
+      - Ytb:鹏哥分享_CA_加拿大_13
+      - Ytb:鹏哥分享_CA_加拿大_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_CA_加拿大_16
+      - Ytb:鹏哥分享_CA_加拿大_17
+      - Ytb:鹏哥分享_CA_加拿大_18
       - Ytb:鹏哥分享_GB_英国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
+      - Ytb:鹏哥分享_CA_加拿大_20
+      - Ytb:鹏哥分享_CA_加拿大_21
       - Ytb:鹏哥分享_US_美国_22
       - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_GB_英国_25
-      - Ytb:鹏哥分享_HK_香港_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_HK_香港_28
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_GB_英国_24
+      - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_CA_加拿大_26
+      - Ytb:鹏哥分享_CA_加拿大_27
+      - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_CA_加拿大_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_HK_香港_31
-      - Ytb:鹏哥分享_HK_香港_32
+      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
-      - Ytb:鹏哥分享_GB_英国_34
-      - Ytb:鹏哥分享_AE_阿联酋_35
+      - Ytb:鹏哥分享_US_美国_34
+      - Ytb:鹏哥分享_US_美国_35
       - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_HK_香港_37
-      - Ytb:鹏哥分享_ID_印度尼西亚_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_HK_香港_40
-      - Ytb:鹏哥分享_US_美国_41
+      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_US_美国_38
+      - Ytb:鹏哥分享_HK_香港_39
+      - Ytb:鹏哥分享_US_美国_40
+      - Ytb:鹏哥分享_GB_英国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_HK_香港_44
-      - Ytb:鹏哥分享_IL_以色列_45
-      - Ytb:鹏哥分享_US_美国_46
+      - Ytb:鹏哥分享_CN_中国_44
+      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_AE_阿联酋_46
       - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_FR_法国_51
-      - Ytb:鹏哥分享_US_美国_52
+      - Ytb:鹏哥分享_IL_以色列_51
+      - Ytb:鹏哥分享_HK_香港_52
       - Ytb:鹏哥分享_HK_香港_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_HK_香港_54
+      - Ytb:鹏哥分享_HK_香港_55
+      - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_TW_台湾_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_CA_加拿大_61
-      - Ytb:鹏哥分享_CA_加拿大_62
-      - Ytb:鹏哥分享_CA_加拿大_63
-      - Ytb:鹏哥分享_CA_加拿大_64
-      - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
-      - Ytb:鹏哥分享_US_美国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_CA_加拿大_72
-      - Ytb:鹏哥分享_CA_加拿大_73
-      - Ytb:鹏哥分享_CA_加拿大_74
-      - Ytb:鹏哥分享_CA_加拿大_75
-      - Ytb:鹏哥分享_CA_加拿大_76
-      - Ytb:鹏哥分享_US_美国_77
-      - Ytb:鹏哥分享_US_美国_78
-      - Ytb:鹏哥分享_US_美国_79
-      - Ytb:鹏哥分享_US_美国_80
-      - Ytb:鹏哥分享_CN_中国_81
-      - Ytb:鹏哥分享_CN_中国_82
+      - Ytb:鹏哥分享_US_美国_58
+      - Ytb:鹏哥分享_HK_香港_59
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Ytb:鹏哥分享_HK_香港_1
-      - Ytb:鹏哥分享_CN_中国_2
-      - Ytb:鹏哥分享_CN_中国_3
-      - Ytb:鹏哥分享_CN_中国_4
+      - Ytb:鹏哥分享_GB_英国_1
+      - Ytb:鹏哥分享_DE_德国_2
+      - Ytb:鹏哥分享_US_美国_3
+      - Ytb:鹏哥分享_US_美国_4
       - Ytb:鹏哥分享_CN_中国_5
-      - Ytb:鹏哥分享_CN_中国_6
-      - Ytb:鹏哥分享_TW_台湾_7
-      - Ytb:鹏哥分享_CN_中国_8
-      - Ytb:鹏哥分享_CN_中国_9
-      - Ytb:鹏哥分享_CN_中国_10
-      - Ytb:鹏哥分享_CN_中国_11
-      - Ytb:鹏哥分享_DE_德国_12
-      - Ytb:鹏哥分享_CN_中国_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18
+      - Ytb:鹏哥分享_US_美国_6
+      - Ytb:鹏哥分享_US_美国_7
+      - Ytb:鹏哥分享_US_美国_8
+      - Ytb:鹏哥分享_US_美国_9
+      - Ytb:鹏哥分享_US_美国_10
+      - Ytb:鹏哥分享_CA_加拿大_11
+      - Ytb:鹏哥分享_CA_加拿大_12
+      - Ytb:鹏哥分享_CA_加拿大_13
+      - Ytb:鹏哥分享_CA_加拿大_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_CA_加拿大_16
+      - Ytb:鹏哥分享_CA_加拿大_17
+      - Ytb:鹏哥分享_CA_加拿大_18
       - Ytb:鹏哥分享_GB_英国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
+      - Ytb:鹏哥分享_CA_加拿大_20
+      - Ytb:鹏哥分享_CA_加拿大_21
       - Ytb:鹏哥分享_US_美国_22
       - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_GB_英国_25
-      - Ytb:鹏哥分享_HK_香港_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_HK_香港_28
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_GB_英国_24
+      - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_CA_加拿大_26
+      - Ytb:鹏哥分享_CA_加拿大_27
+      - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_CA_加拿大_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_HK_香港_31
-      - Ytb:鹏哥分享_HK_香港_32
+      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
-      - Ytb:鹏哥分享_GB_英国_34
-      - Ytb:鹏哥分享_AE_阿联酋_35
+      - Ytb:鹏哥分享_US_美国_34
+      - Ytb:鹏哥分享_US_美国_35
       - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_HK_香港_37
-      - Ytb:鹏哥分享_ID_印度尼西亚_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_HK_香港_40
-      - Ytb:鹏哥分享_US_美国_41
+      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_US_美国_38
+      - Ytb:鹏哥分享_HK_香港_39
+      - Ytb:鹏哥分享_US_美国_40
+      - Ytb:鹏哥分享_GB_英国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_HK_香港_44
-      - Ytb:鹏哥分享_IL_以色列_45
-      - Ytb:鹏哥分享_US_美国_46
+      - Ytb:鹏哥分享_CN_中国_44
+      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_AE_阿联酋_46
       - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_FR_法国_51
-      - Ytb:鹏哥分享_US_美国_52
+      - Ytb:鹏哥分享_IL_以色列_51
+      - Ytb:鹏哥分享_HK_香港_52
       - Ytb:鹏哥分享_HK_香港_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_HK_香港_54
+      - Ytb:鹏哥分享_HK_香港_55
+      - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_TW_台湾_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_CA_加拿大_61
-      - Ytb:鹏哥分享_CA_加拿大_62
-      - Ytb:鹏哥分享_CA_加拿大_63
-      - Ytb:鹏哥分享_CA_加拿大_64
-      - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
-      - Ytb:鹏哥分享_US_美国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_CA_加拿大_72
-      - Ytb:鹏哥分享_CA_加拿大_73
-      - Ytb:鹏哥分享_CA_加拿大_74
-      - Ytb:鹏哥分享_CA_加拿大_75
-      - Ytb:鹏哥分享_CA_加拿大_76
-      - Ytb:鹏哥分享_US_美国_77
-      - Ytb:鹏哥分享_US_美国_78
-      - Ytb:鹏哥分享_US_美国_79
-      - Ytb:鹏哥分享_US_美国_80
-      - Ytb:鹏哥分享_CN_中国_81
-      - Ytb:鹏哥分享_CN_中国_82
+      - Ytb:鹏哥分享_US_美国_58
+      - Ytb:鹏哥分享_HK_香港_59
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Ytb:鹏哥分享_HK_香港_1
-      - Ytb:鹏哥分享_CN_中国_2
-      - Ytb:鹏哥分享_CN_中国_3
-      - Ytb:鹏哥分享_CN_中国_4
+      - Ytb:鹏哥分享_GB_英国_1
+      - Ytb:鹏哥分享_DE_德国_2
+      - Ytb:鹏哥分享_US_美国_3
+      - Ytb:鹏哥分享_US_美国_4
       - Ytb:鹏哥分享_CN_中国_5
-      - Ytb:鹏哥分享_CN_中国_6
-      - Ytb:鹏哥分享_TW_台湾_7
-      - Ytb:鹏哥分享_CN_中国_8
-      - Ytb:鹏哥分享_CN_中国_9
-      - Ytb:鹏哥分享_CN_中国_10
-      - Ytb:鹏哥分享_CN_中国_11
-      - Ytb:鹏哥分享_DE_德国_12
-      - Ytb:鹏哥分享_CN_中国_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18
+      - Ytb:鹏哥分享_US_美国_6
+      - Ytb:鹏哥分享_US_美国_7
+      - Ytb:鹏哥分享_US_美国_8
+      - Ytb:鹏哥分享_US_美国_9
+      - Ytb:鹏哥分享_US_美国_10
+      - Ytb:鹏哥分享_CA_加拿大_11
+      - Ytb:鹏哥分享_CA_加拿大_12
+      - Ytb:鹏哥分享_CA_加拿大_13
+      - Ytb:鹏哥分享_CA_加拿大_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_CA_加拿大_16
+      - Ytb:鹏哥分享_CA_加拿大_17
+      - Ytb:鹏哥分享_CA_加拿大_18
       - Ytb:鹏哥分享_GB_英国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
+      - Ytb:鹏哥分享_CA_加拿大_20
+      - Ytb:鹏哥分享_CA_加拿大_21
       - Ytb:鹏哥分享_US_美国_22
       - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_GB_英国_25
-      - Ytb:鹏哥分享_HK_香港_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_HK_香港_28
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_GB_英国_24
+      - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_CA_加拿大_26
+      - Ytb:鹏哥分享_CA_加拿大_27
+      - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_CA_加拿大_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_HK_香港_31
-      - Ytb:鹏哥分享_HK_香港_32
+      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
-      - Ytb:鹏哥分享_GB_英国_34
-      - Ytb:鹏哥分享_AE_阿联酋_35
+      - Ytb:鹏哥分享_US_美国_34
+      - Ytb:鹏哥分享_US_美国_35
       - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_HK_香港_37
-      - Ytb:鹏哥分享_ID_印度尼西亚_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_HK_香港_40
-      - Ytb:鹏哥分享_US_美国_41
+      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_US_美国_38
+      - Ytb:鹏哥分享_HK_香港_39
+      - Ytb:鹏哥分享_US_美国_40
+      - Ytb:鹏哥分享_GB_英国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_HK_香港_44
-      - Ytb:鹏哥分享_IL_以色列_45
-      - Ytb:鹏哥分享_US_美国_46
+      - Ytb:鹏哥分享_CN_中国_44
+      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_AE_阿联酋_46
       - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_FR_法国_51
-      - Ytb:鹏哥分享_US_美国_52
+      - Ytb:鹏哥分享_IL_以色列_51
+      - Ytb:鹏哥分享_HK_香港_52
       - Ytb:鹏哥分享_HK_香港_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_HK_香港_54
+      - Ytb:鹏哥分享_HK_香港_55
+      - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_TW_台湾_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_CA_加拿大_61
-      - Ytb:鹏哥分享_CA_加拿大_62
-      - Ytb:鹏哥分享_CA_加拿大_63
-      - Ytb:鹏哥分享_CA_加拿大_64
-      - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
-      - Ytb:鹏哥分享_US_美国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_CA_加拿大_72
-      - Ytb:鹏哥分享_CA_加拿大_73
-      - Ytb:鹏哥分享_CA_加拿大_74
-      - Ytb:鹏哥分享_CA_加拿大_75
-      - Ytb:鹏哥分享_CA_加拿大_76
-      - Ytb:鹏哥分享_US_美国_77
-      - Ytb:鹏哥分享_US_美国_78
-      - Ytb:鹏哥分享_US_美国_79
-      - Ytb:鹏哥分享_US_美国_80
-      - Ytb:鹏哥分享_CN_中国_81
-      - Ytb:鹏哥分享_CN_中国_82
+      - Ytb:鹏哥分享_US_美国_58
+      - Ytb:鹏哥分享_HK_香港_59
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Ytb:鹏哥分享_HK_香港_1
-      - Ytb:鹏哥分享_CN_中国_2
-      - Ytb:鹏哥分享_CN_中国_3
-      - Ytb:鹏哥分享_CN_中国_4
+      - Ytb:鹏哥分享_GB_英国_1
+      - Ytb:鹏哥分享_DE_德国_2
+      - Ytb:鹏哥分享_US_美国_3
+      - Ytb:鹏哥分享_US_美国_4
       - Ytb:鹏哥分享_CN_中国_5
-      - Ytb:鹏哥分享_CN_中国_6
-      - Ytb:鹏哥分享_TW_台湾_7
-      - Ytb:鹏哥分享_CN_中国_8
-      - Ytb:鹏哥分享_CN_中国_9
-      - Ytb:鹏哥分享_CN_中国_10
-      - Ytb:鹏哥分享_CN_中国_11
-      - Ytb:鹏哥分享_DE_德国_12
-      - Ytb:鹏哥分享_CN_中国_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18
+      - Ytb:鹏哥分享_US_美国_6
+      - Ytb:鹏哥分享_US_美国_7
+      - Ytb:鹏哥分享_US_美国_8
+      - Ytb:鹏哥分享_US_美国_9
+      - Ytb:鹏哥分享_US_美国_10
+      - Ytb:鹏哥分享_CA_加拿大_11
+      - Ytb:鹏哥分享_CA_加拿大_12
+      - Ytb:鹏哥分享_CA_加拿大_13
+      - Ytb:鹏哥分享_CA_加拿大_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_CA_加拿大_16
+      - Ytb:鹏哥分享_CA_加拿大_17
+      - Ytb:鹏哥分享_CA_加拿大_18
       - Ytb:鹏哥分享_GB_英国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
+      - Ytb:鹏哥分享_CA_加拿大_20
+      - Ytb:鹏哥分享_CA_加拿大_21
       - Ytb:鹏哥分享_US_美国_22
       - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_GB_英国_25
-      - Ytb:鹏哥分享_HK_香港_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_HK_香港_28
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_GB_英国_24
+      - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_CA_加拿大_26
+      - Ytb:鹏哥分享_CA_加拿大_27
+      - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_CA_加拿大_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_HK_香港_31
-      - Ytb:鹏哥分享_HK_香港_32
+      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
-      - Ytb:鹏哥分享_GB_英国_34
-      - Ytb:鹏哥分享_AE_阿联酋_35
+      - Ytb:鹏哥分享_US_美国_34
+      - Ytb:鹏哥分享_US_美国_35
       - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_HK_香港_37
-      - Ytb:鹏哥分享_ID_印度尼西亚_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_HK_香港_40
-      - Ytb:鹏哥分享_US_美国_41
+      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_US_美国_38
+      - Ytb:鹏哥分享_HK_香港_39
+      - Ytb:鹏哥分享_US_美国_40
+      - Ytb:鹏哥分享_GB_英国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_HK_香港_44
-      - Ytb:鹏哥分享_IL_以色列_45
-      - Ytb:鹏哥分享_US_美国_46
+      - Ytb:鹏哥分享_CN_中国_44
+      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_AE_阿联酋_46
       - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_FR_法国_51
-      - Ytb:鹏哥分享_US_美国_52
+      - Ytb:鹏哥分享_IL_以色列_51
+      - Ytb:鹏哥分享_HK_香港_52
       - Ytb:鹏哥分享_HK_香港_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_HK_香港_54
+      - Ytb:鹏哥分享_HK_香港_55
+      - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_TW_台湾_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_CA_加拿大_61
-      - Ytb:鹏哥分享_CA_加拿大_62
-      - Ytb:鹏哥分享_CA_加拿大_63
-      - Ytb:鹏哥分享_CA_加拿大_64
-      - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
-      - Ytb:鹏哥分享_US_美国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_CA_加拿大_72
-      - Ytb:鹏哥分享_CA_加拿大_73
-      - Ytb:鹏哥分享_CA_加拿大_74
-      - Ytb:鹏哥分享_CA_加拿大_75
-      - Ytb:鹏哥分享_CA_加拿大_76
-      - Ytb:鹏哥分享_US_美国_77
-      - Ytb:鹏哥分享_US_美国_78
-      - Ytb:鹏哥分享_US_美国_79
-      - Ytb:鹏哥分享_US_美国_80
-      - Ytb:鹏哥分享_CN_中国_81
-      - Ytb:鹏哥分享_CN_中国_82
+      - Ytb:鹏哥分享_US_美国_58
+      - Ytb:鹏哥分享_HK_香港_59
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Ytb:鹏哥分享_HK_香港_1
-      - Ytb:鹏哥分享_CN_中国_2
-      - Ytb:鹏哥分享_CN_中国_3
-      - Ytb:鹏哥分享_CN_中国_4
+      - Ytb:鹏哥分享_GB_英国_1
+      - Ytb:鹏哥分享_DE_德国_2
+      - Ytb:鹏哥分享_US_美国_3
+      - Ytb:鹏哥分享_US_美国_4
       - Ytb:鹏哥分享_CN_中国_5
-      - Ytb:鹏哥分享_CN_中国_6
-      - Ytb:鹏哥分享_TW_台湾_7
-      - Ytb:鹏哥分享_CN_中国_8
-      - Ytb:鹏哥分享_CN_中国_9
-      - Ytb:鹏哥分享_CN_中国_10
-      - Ytb:鹏哥分享_CN_中国_11
-      - Ytb:鹏哥分享_DE_德国_12
-      - Ytb:鹏哥分享_CN_中国_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18
+      - Ytb:鹏哥分享_US_美国_6
+      - Ytb:鹏哥分享_US_美国_7
+      - Ytb:鹏哥分享_US_美国_8
+      - Ytb:鹏哥分享_US_美国_9
+      - Ytb:鹏哥分享_US_美国_10
+      - Ytb:鹏哥分享_CA_加拿大_11
+      - Ytb:鹏哥分享_CA_加拿大_12
+      - Ytb:鹏哥分享_CA_加拿大_13
+      - Ytb:鹏哥分享_CA_加拿大_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_CA_加拿大_16
+      - Ytb:鹏哥分享_CA_加拿大_17
+      - Ytb:鹏哥分享_CA_加拿大_18
       - Ytb:鹏哥分享_GB_英国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
+      - Ytb:鹏哥分享_CA_加拿大_20
+      - Ytb:鹏哥分享_CA_加拿大_21
       - Ytb:鹏哥分享_US_美国_22
       - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_GB_英国_25
-      - Ytb:鹏哥分享_HK_香港_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_HK_香港_28
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_GB_英国_24
+      - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_CA_加拿大_26
+      - Ytb:鹏哥分享_CA_加拿大_27
+      - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_CA_加拿大_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_HK_香港_31
-      - Ytb:鹏哥分享_HK_香港_32
+      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
-      - Ytb:鹏哥分享_GB_英国_34
-      - Ytb:鹏哥分享_AE_阿联酋_35
+      - Ytb:鹏哥分享_US_美国_34
+      - Ytb:鹏哥分享_US_美国_35
       - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_HK_香港_37
-      - Ytb:鹏哥分享_ID_印度尼西亚_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_HK_香港_40
-      - Ytb:鹏哥分享_US_美国_41
+      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_US_美国_38
+      - Ytb:鹏哥分享_HK_香港_39
+      - Ytb:鹏哥分享_US_美国_40
+      - Ytb:鹏哥分享_GB_英国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_HK_香港_44
-      - Ytb:鹏哥分享_IL_以色列_45
-      - Ytb:鹏哥分享_US_美国_46
+      - Ytb:鹏哥分享_CN_中国_44
+      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_AE_阿联酋_46
       - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_FR_法国_51
-      - Ytb:鹏哥分享_US_美国_52
+      - Ytb:鹏哥分享_IL_以色列_51
+      - Ytb:鹏哥分享_HK_香港_52
       - Ytb:鹏哥分享_HK_香港_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_HK_香港_54
+      - Ytb:鹏哥分享_HK_香港_55
+      - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_TW_台湾_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_CA_加拿大_61
-      - Ytb:鹏哥分享_CA_加拿大_62
-      - Ytb:鹏哥分享_CA_加拿大_63
-      - Ytb:鹏哥分享_CA_加拿大_64
-      - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
-      - Ytb:鹏哥分享_US_美国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_CA_加拿大_72
-      - Ytb:鹏哥分享_CA_加拿大_73
-      - Ytb:鹏哥分享_CA_加拿大_74
-      - Ytb:鹏哥分享_CA_加拿大_75
-      - Ytb:鹏哥分享_CA_加拿大_76
-      - Ytb:鹏哥分享_US_美国_77
-      - Ytb:鹏哥分享_US_美国_78
-      - Ytb:鹏哥分享_US_美国_79
-      - Ytb:鹏哥分享_US_美国_80
-      - Ytb:鹏哥分享_CN_中国_81
-      - Ytb:鹏哥分享_CN_中国_82
+      - Ytb:鹏哥分享_US_美国_58
+      - Ytb:鹏哥分享_HK_香港_59
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Ytb:鹏哥分享_HK_香港_1
-      - Ytb:鹏哥分享_CN_中国_2
-      - Ytb:鹏哥分享_CN_中国_3
-      - Ytb:鹏哥分享_CN_中国_4
+      - Ytb:鹏哥分享_GB_英国_1
+      - Ytb:鹏哥分享_DE_德国_2
+      - Ytb:鹏哥分享_US_美国_3
+      - Ytb:鹏哥分享_US_美国_4
       - Ytb:鹏哥分享_CN_中国_5
-      - Ytb:鹏哥分享_CN_中国_6
-      - Ytb:鹏哥分享_TW_台湾_7
-      - Ytb:鹏哥分享_CN_中国_8
-      - Ytb:鹏哥分享_CN_中国_9
-      - Ytb:鹏哥分享_CN_中国_10
-      - Ytb:鹏哥分享_CN_中国_11
-      - Ytb:鹏哥分享_DE_德国_12
-      - Ytb:鹏哥分享_CN_中国_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18
+      - Ytb:鹏哥分享_US_美国_6
+      - Ytb:鹏哥分享_US_美国_7
+      - Ytb:鹏哥分享_US_美国_8
+      - Ytb:鹏哥分享_US_美国_9
+      - Ytb:鹏哥分享_US_美国_10
+      - Ytb:鹏哥分享_CA_加拿大_11
+      - Ytb:鹏哥分享_CA_加拿大_12
+      - Ytb:鹏哥分享_CA_加拿大_13
+      - Ytb:鹏哥分享_CA_加拿大_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_CA_加拿大_16
+      - Ytb:鹏哥分享_CA_加拿大_17
+      - Ytb:鹏哥分享_CA_加拿大_18
       - Ytb:鹏哥分享_GB_英国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
+      - Ytb:鹏哥分享_CA_加拿大_20
+      - Ytb:鹏哥分享_CA_加拿大_21
       - Ytb:鹏哥分享_US_美国_22
       - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_GB_英国_25
-      - Ytb:鹏哥分享_HK_香港_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_HK_香港_28
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_GB_英国_24
+      - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_CA_加拿大_26
+      - Ytb:鹏哥分享_CA_加拿大_27
+      - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_CA_加拿大_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_HK_香港_31
-      - Ytb:鹏哥分享_HK_香港_32
+      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
-      - Ytb:鹏哥分享_GB_英国_34
-      - Ytb:鹏哥分享_AE_阿联酋_35
+      - Ytb:鹏哥分享_US_美国_34
+      - Ytb:鹏哥分享_US_美国_35
       - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_HK_香港_37
-      - Ytb:鹏哥分享_ID_印度尼西亚_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_HK_香港_40
-      - Ytb:鹏哥分享_US_美国_41
+      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_US_美国_38
+      - Ytb:鹏哥分享_HK_香港_39
+      - Ytb:鹏哥分享_US_美国_40
+      - Ytb:鹏哥分享_GB_英国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_HK_香港_44
-      - Ytb:鹏哥分享_IL_以色列_45
-      - Ytb:鹏哥分享_US_美国_46
+      - Ytb:鹏哥分享_CN_中国_44
+      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_AE_阿联酋_46
       - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_FR_法国_51
-      - Ytb:鹏哥分享_US_美国_52
+      - Ytb:鹏哥分享_IL_以色列_51
+      - Ytb:鹏哥分享_HK_香港_52
       - Ytb:鹏哥分享_HK_香港_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_HK_香港_54
+      - Ytb:鹏哥分享_HK_香港_55
+      - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_TW_台湾_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_CA_加拿大_61
-      - Ytb:鹏哥分享_CA_加拿大_62
-      - Ytb:鹏哥分享_CA_加拿大_63
-      - Ytb:鹏哥分享_CA_加拿大_64
-      - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
-      - Ytb:鹏哥分享_US_美国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_CA_加拿大_72
-      - Ytb:鹏哥分享_CA_加拿大_73
-      - Ytb:鹏哥分享_CA_加拿大_74
-      - Ytb:鹏哥分享_CA_加拿大_75
-      - Ytb:鹏哥分享_CA_加拿大_76
-      - Ytb:鹏哥分享_US_美国_77
-      - Ytb:鹏哥分享_US_美国_78
-      - Ytb:鹏哥分享_US_美国_79
-      - Ytb:鹏哥分享_US_美国_80
-      - Ytb:鹏哥分享_CN_中国_81
-      - Ytb:鹏哥分享_CN_中国_82
+      - Ytb:鹏哥分享_US_美国_58
+      - Ytb:鹏哥分享_HK_香港_59
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Ytb:鹏哥分享_HK_香港_1
-      - Ytb:鹏哥分享_CN_中国_2
-      - Ytb:鹏哥分享_CN_中国_3
-      - Ytb:鹏哥分享_CN_中国_4
+      - Ytb:鹏哥分享_GB_英国_1
+      - Ytb:鹏哥分享_DE_德国_2
+      - Ytb:鹏哥分享_US_美国_3
+      - Ytb:鹏哥分享_US_美国_4
       - Ytb:鹏哥分享_CN_中国_5
-      - Ytb:鹏哥分享_CN_中国_6
-      - Ytb:鹏哥分享_TW_台湾_7
-      - Ytb:鹏哥分享_CN_中国_8
-      - Ytb:鹏哥分享_CN_中国_9
-      - Ytb:鹏哥分享_CN_中国_10
-      - Ytb:鹏哥分享_CN_中国_11
-      - Ytb:鹏哥分享_DE_德国_12
-      - Ytb:鹏哥分享_CN_中国_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18
+      - Ytb:鹏哥分享_US_美国_6
+      - Ytb:鹏哥分享_US_美国_7
+      - Ytb:鹏哥分享_US_美国_8
+      - Ytb:鹏哥分享_US_美国_9
+      - Ytb:鹏哥分享_US_美国_10
+      - Ytb:鹏哥分享_CA_加拿大_11
+      - Ytb:鹏哥分享_CA_加拿大_12
+      - Ytb:鹏哥分享_CA_加拿大_13
+      - Ytb:鹏哥分享_CA_加拿大_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_CA_加拿大_16
+      - Ytb:鹏哥分享_CA_加拿大_17
+      - Ytb:鹏哥分享_CA_加拿大_18
       - Ytb:鹏哥分享_GB_英国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
+      - Ytb:鹏哥分享_CA_加拿大_20
+      - Ytb:鹏哥分享_CA_加拿大_21
       - Ytb:鹏哥分享_US_美国_22
       - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_GB_英国_25
-      - Ytb:鹏哥分享_HK_香港_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_HK_香港_28
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_GB_英国_24
+      - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_CA_加拿大_26
+      - Ytb:鹏哥分享_CA_加拿大_27
+      - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_CA_加拿大_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_HK_香港_31
-      - Ytb:鹏哥分享_HK_香港_32
+      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
-      - Ytb:鹏哥分享_GB_英国_34
-      - Ytb:鹏哥分享_AE_阿联酋_35
+      - Ytb:鹏哥分享_US_美国_34
+      - Ytb:鹏哥分享_US_美国_35
       - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_HK_香港_37
-      - Ytb:鹏哥分享_ID_印度尼西亚_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_HK_香港_40
-      - Ytb:鹏哥分享_US_美国_41
+      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_US_美国_38
+      - Ytb:鹏哥分享_HK_香港_39
+      - Ytb:鹏哥分享_US_美国_40
+      - Ytb:鹏哥分享_GB_英国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_HK_香港_44
-      - Ytb:鹏哥分享_IL_以色列_45
-      - Ytb:鹏哥分享_US_美国_46
+      - Ytb:鹏哥分享_CN_中国_44
+      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_AE_阿联酋_46
       - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_FR_法国_51
-      - Ytb:鹏哥分享_US_美国_52
+      - Ytb:鹏哥分享_IL_以色列_51
+      - Ytb:鹏哥分享_HK_香港_52
       - Ytb:鹏哥分享_HK_香港_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_HK_香港_54
+      - Ytb:鹏哥分享_HK_香港_55
+      - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_TW_台湾_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_CA_加拿大_61
-      - Ytb:鹏哥分享_CA_加拿大_62
-      - Ytb:鹏哥分享_CA_加拿大_63
-      - Ytb:鹏哥分享_CA_加拿大_64
-      - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
-      - Ytb:鹏哥分享_US_美国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_CA_加拿大_72
-      - Ytb:鹏哥分享_CA_加拿大_73
-      - Ytb:鹏哥分享_CA_加拿大_74
-      - Ytb:鹏哥分享_CA_加拿大_75
-      - Ytb:鹏哥分享_CA_加拿大_76
-      - Ytb:鹏哥分享_US_美国_77
-      - Ytb:鹏哥分享_US_美国_78
-      - Ytb:鹏哥分享_US_美国_79
-      - Ytb:鹏哥分享_US_美国_80
-      - Ytb:鹏哥分享_CN_中国_81
-      - Ytb:鹏哥分享_CN_中国_82
+      - Ytb:鹏哥分享_US_美国_58
+      - Ytb:鹏哥分享_HK_香港_59
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -714,88 +530,65 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Ytb:鹏哥分享_HK_香港_1
-      - Ytb:鹏哥分享_CN_中国_2
-      - Ytb:鹏哥分享_CN_中国_3
-      - Ytb:鹏哥分享_CN_中国_4
+      - Ytb:鹏哥分享_GB_英国_1
+      - Ytb:鹏哥分享_DE_德国_2
+      - Ytb:鹏哥分享_US_美国_3
+      - Ytb:鹏哥分享_US_美国_4
       - Ytb:鹏哥分享_CN_中国_5
-      - Ytb:鹏哥分享_CN_中国_6
-      - Ytb:鹏哥分享_TW_台湾_7
-      - Ytb:鹏哥分享_CN_中国_8
-      - Ytb:鹏哥分享_CN_中国_9
-      - Ytb:鹏哥分享_CN_中国_10
-      - Ytb:鹏哥分享_CN_中国_11
-      - Ytb:鹏哥分享_DE_德国_12
-      - Ytb:鹏哥分享_CN_中国_13
-      - Ytb:鹏哥分享_US_美国_14
-      - Ytb:鹏哥分享_US_美国_15
-      - Ytb:鹏哥分享_US_美国_16
-      - Ytb:鹏哥分享_GB_英国_17
-      - Ytb:鹏哥分享_US_美国_18
+      - Ytb:鹏哥分享_US_美国_6
+      - Ytb:鹏哥分享_US_美国_7
+      - Ytb:鹏哥分享_US_美国_8
+      - Ytb:鹏哥分享_US_美国_9
+      - Ytb:鹏哥分享_US_美国_10
+      - Ytb:鹏哥分享_CA_加拿大_11
+      - Ytb:鹏哥分享_CA_加拿大_12
+      - Ytb:鹏哥分享_CA_加拿大_13
+      - Ytb:鹏哥分享_CA_加拿大_14
+      - Ytb:鹏哥分享_CA_加拿大_15
+      - Ytb:鹏哥分享_CA_加拿大_16
+      - Ytb:鹏哥分享_CA_加拿大_17
+      - Ytb:鹏哥分享_CA_加拿大_18
       - Ytb:鹏哥分享_GB_英国_19
-      - Ytb:鹏哥分享_US_美国_20
-      - Ytb:鹏哥分享_US_美国_21
+      - Ytb:鹏哥分享_CA_加拿大_20
+      - Ytb:鹏哥分享_CA_加拿大_21
       - Ytb:鹏哥分享_US_美国_22
       - Ytb:鹏哥分享_US_美国_23
-      - Ytb:鹏哥分享_US_美国_24
-      - Ytb:鹏哥分享_GB_英国_25
-      - Ytb:鹏哥分享_HK_香港_26
-      - Ytb:鹏哥分享_US_美国_27
-      - Ytb:鹏哥分享_HK_香港_28
-      - Ytb:鹏哥分享_US_美国_29
+      - Ytb:鹏哥分享_GB_英国_24
+      - Ytb:鹏哥分享_US_美国_25
+      - Ytb:鹏哥分享_CA_加拿大_26
+      - Ytb:鹏哥分享_CA_加拿大_27
+      - Ytb:鹏哥分享_US_美国_28
+      - Ytb:鹏哥分享_CA_加拿大_29
       - Ytb:鹏哥分享_US_美国_30
-      - Ytb:鹏哥分享_HK_香港_31
-      - Ytb:鹏哥分享_HK_香港_32
+      - Ytb:鹏哥分享_US_美国_31
+      - Ytb:鹏哥分享_US_美国_32
       - Ytb:鹏哥分享_US_美国_33
-      - Ytb:鹏哥分享_GB_英国_34
-      - Ytb:鹏哥分享_AE_阿联酋_35
+      - Ytb:鹏哥分享_US_美国_34
+      - Ytb:鹏哥分享_US_美国_35
       - Ytb:鹏哥分享_US_美国_36
-      - Ytb:鹏哥分享_HK_香港_37
-      - Ytb:鹏哥分享_ID_印度尼西亚_38
-      - Ytb:鹏哥分享_US_美国_39
-      - Ytb:鹏哥分享_HK_香港_40
-      - Ytb:鹏哥分享_US_美国_41
+      - Ytb:鹏哥分享_US_美国_37
+      - Ytb:鹏哥分享_US_美国_38
+      - Ytb:鹏哥分享_HK_香港_39
+      - Ytb:鹏哥分享_US_美国_40
+      - Ytb:鹏哥分享_GB_英国_41
       - Ytb:鹏哥分享_US_美国_42
       - Ytb:鹏哥分享_US_美国_43
-      - Ytb:鹏哥分享_HK_香港_44
-      - Ytb:鹏哥分享_IL_以色列_45
-      - Ytb:鹏哥分享_US_美国_46
+      - Ytb:鹏哥分享_CN_中国_44
+      - Ytb:鹏哥分享_US_美国_45
+      - Ytb:鹏哥分享_AE_阿联酋_46
       - Ytb:鹏哥分享_US_美国_47
       - Ytb:鹏哥分享_US_美国_48
       - Ytb:鹏哥分享_US_美国_49
       - Ytb:鹏哥分享_US_美国_50
-      - Ytb:鹏哥分享_FR_法国_51
-      - Ytb:鹏哥分享_US_美国_52
+      - Ytb:鹏哥分享_IL_以色列_51
+      - Ytb:鹏哥分享_HK_香港_52
       - Ytb:鹏哥分享_HK_香港_53
-      - Ytb:鹏哥分享_US_美国_54
-      - Ytb:鹏哥分享_US_美国_55
-      - Ytb:鹏哥分享_US_美国_56
+      - Ytb:鹏哥分享_HK_香港_54
+      - Ytb:鹏哥分享_HK_香港_55
+      - Ytb:鹏哥分享_HK_香港_56
       - Ytb:鹏哥分享_US_美国_57
-      - Ytb:鹏哥分享_TW_台湾_58
-      - Ytb:鹏哥分享_US_美国_59
-      - Ytb:鹏哥分享_US_美国_60
-      - Ytb:鹏哥分享_CA_加拿大_61
-      - Ytb:鹏哥分享_CA_加拿大_62
-      - Ytb:鹏哥分享_CA_加拿大_63
-      - Ytb:鹏哥分享_CA_加拿大_64
-      - Ytb:鹏哥分享_US_美国_65
-      - Ytb:鹏哥分享_CA_加拿大_66
-      - Ytb:鹏哥分享_US_美国_67
-      - Ytb:鹏哥分享_US_美国_68
-      - Ytb:鹏哥分享_CA_加拿大_69
-      - Ytb:鹏哥分享_CA_加拿大_70
-      - Ytb:鹏哥分享_CA_加拿大_71
-      - Ytb:鹏哥分享_CA_加拿大_72
-      - Ytb:鹏哥分享_CA_加拿大_73
-      - Ytb:鹏哥分享_CA_加拿大_74
-      - Ytb:鹏哥分享_CA_加拿大_75
-      - Ytb:鹏哥分享_CA_加拿大_76
-      - Ytb:鹏哥分享_US_美国_77
-      - Ytb:鹏哥分享_US_美国_78
-      - Ytb:鹏哥分享_US_美国_79
-      - Ytb:鹏哥分享_US_美国_80
-      - Ytb:鹏哥分享_CN_中国_81
-      - Ytb:鹏哥分享_CN_中国_82
+      - Ytb:鹏哥分享_US_美国_58
+      - Ytb:鹏哥分享_HK_香港_59
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
