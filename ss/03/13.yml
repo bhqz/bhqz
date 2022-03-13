@@ -5,6 +5,9 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {"name":"Ytb:鹏哥分享_高速(德国)1_1","server":"142.93.168.188","port":21612,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"zUOC2CcSPiEX"}
+  - {"name":"Ytb:鹏哥分享_高速(英国)2_2","server":"188.166.171.220","port":34653,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"yNkEYHezU9ER"}
+  - {"name":"Ytb:鹏哥分享_高速(美国)3_3","server":"206.189.192.203","port":25614,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"RNSKNr9avk2q"}
   - {"name":"Ytb:鹏哥分享_澳大利亚_1","server":"172.105.180.227","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
   - {"name":"Ytb:鹏哥分享_澳大利亚_2","server":"172.105.180.227","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
   - {"name":"Ytb:鹏哥分享_澳大利亚_3","server":"172.105.180.227","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
@@ -43,6 +46,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - Ytb:鹏哥分享_高速(德国)1_1
+      - Ytb:鹏哥分享_高速(英国)2_2
+      - Ytb:鹏哥分享_高速(美国)3_3
       - Ytb:鹏哥分享_澳大利亚_1
       - Ytb:鹏哥分享_澳大利亚_2
       - Ytb:鹏哥分享_澳大利亚_3
@@ -81,6 +87,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - Ytb:鹏哥分享_高速(德国)1_1
+      - Ytb:鹏哥分享_高速(英国)2_2
+      - Ytb:鹏哥分享_高速(美国)3_3
       - Ytb:鹏哥分享_澳大利亚_1
       - Ytb:鹏哥分享_澳大利亚_2
       - Ytb:鹏哥分享_澳大利亚_3
@@ -119,6 +128,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Ytb:鹏哥分享_高速(德国)1_1
+      - Ytb:鹏哥分享_高速(英国)2_2
+      - Ytb:鹏哥分享_高速(美国)3_3
       - Ytb:鹏哥分享_澳大利亚_1
       - Ytb:鹏哥分享_澳大利亚_2
       - Ytb:鹏哥分享_澳大利亚_3
@@ -156,6 +168,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Ytb:鹏哥分享_高速(德国)1_1
+      - Ytb:鹏哥分享_高速(英国)2_2
+      - Ytb:鹏哥分享_高速(美国)3_3
       - Ytb:鹏哥分享_澳大利亚_1
       - Ytb:鹏哥分享_澳大利亚_2
       - Ytb:鹏哥分享_澳大利亚_3
@@ -193,6 +208,9 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - Ytb:鹏哥分享_高速(德国)1_1
+      - Ytb:鹏哥分享_高速(英国)2_2
+      - Ytb:鹏哥分享_高速(美国)3_3
       - Ytb:鹏哥分享_澳大利亚_1
       - Ytb:鹏哥分享_澳大利亚_2
       - Ytb:鹏哥分享_澳大利亚_3
@@ -230,6 +248,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Ytb:鹏哥分享_高速(德国)1_1
+      - Ytb:鹏哥分享_高速(英国)2_2
+      - Ytb:鹏哥分享_高速(美国)3_3
       - Ytb:鹏哥分享_澳大利亚_1
       - Ytb:鹏哥分享_澳大利亚_2
       - Ytb:鹏哥分享_澳大利亚_3
@@ -284,6 +305,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Ytb:鹏哥分享_高速(德国)1_1
+      - Ytb:鹏哥分享_高速(英国)2_2
+      - Ytb:鹏哥分享_高速(美国)3_3
       - Ytb:鹏哥分享_澳大利亚_1
       - Ytb:鹏哥分享_澳大利亚_2
       - Ytb:鹏哥分享_澳大利亚_3
