@@ -1,0 +1,86 @@
+
+name: Fnyun Client Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+
+  android:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Initialize Flutter project
+        run: bash tool/bootstrap.sh
+
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fnyun-Android-APK
+          path: build/app/outputs/flutter-apk/app-release.apk
+
+  windows:
+    name: Build Windows
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Initialize Flutter project
+        shell: bash
+        run: bash tool/bootstrap.sh
+
+      - name: Build Windows
+        run: flutter build windows --release
+
+      - name: Upload Windows
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fnyun-Windows
+          path: build/windows/x64/runner/Release/
+
+  macos:
+    name: Build macOS
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Initialize Flutter project
+        run: bash tool/bootstrap.sh
+
+      - name: Prepare macOS VPN
+        run: dart run flutter_vless:setup_macos_vpn
+
+      - name: Build macOS
+        run: flutter build macos --release
+
+      - name: Upload macOS
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fnyun-macOS
+          path: build/macos/Build/Products/Release/
